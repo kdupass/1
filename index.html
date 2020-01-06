@@ -1,55 +1,6 @@
 <HTML>
 <HEAD>
 <META charset="uft-8">
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script>
-        jQuery('document').ready(function() {
-          $("#keyword").keyup(function() {
-            var k = $(this).val();
-            $("#etc-table > tbody > tr").hide();
-            var temp = $("#etc-table > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
-
-            $(temp).parent().show();
-          })
-        })
-</script>
-<TITLE>기타db</TITLE>
-<style type="text/css">
-        #container {width: 960px; margin: 0 auto;}
-        #container #input-form {text-align: center;}
-        #etc-table {margin: 0 auto; text-align: center;}
-        #input-form {margin-top: 10px; margin-bottom: 10px;}
-
-        #etc-table {border-collapse: collapse;}
-        #etc-table > thead > tr { background-color: #333; color:#fff; }
-        #etc-table > thead > tr > th { padding: 8px; width: 150px; }
-        #etc-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-</style>
-</HEAD>
-<BODY>
-    <div id="container">
-        <div id="input-form">
-            이름 : <input type="text" id="keyword" />
-        </div>
-<table id="etc-table">
-<CAPTION>기타db</CAPTION>
-<thead>
-<tr>
-<th>ID</th>
-<th>이름</th>
-<th>귀속</th>
-<th>레벨</th>
-</tr>
-</thead>
-<tbody>
-<TR>
-<TD>6301</TD>
-<TD>《귀초》</TD>
-<TD>BIND_NONE</TD>
-<TD>31</TD>
-</TR>
-</tbody>
-</TABLE>
+        <a href="sky_serch.html">아이템 기타</a>
 </BODY>
 </HTML>
