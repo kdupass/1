@@ -5,6 +5,21 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
         jQuery('document').ready(function() {
+	$.getJSON('./sky.json', function(data) {
+		var html = [];
+		
+		$.each(data, function(i, item){
+			console.log(item.users.length);
+			for(var num = 0; num < item.users.length; num++){
+				html.push('<tr>');
+				html.push('<td> ID : '+item.users[num].ID+'</td>');
+				html.push('<td> 이름 : '+item.users[num].Name+'</td>');
+				html.push('<td> 귀속 : '+item.users[num].귀속+'</td>');
+				html.push('<td> 레벨 : '+item.users[num].레벨+'</td>');
+				html.push('/tr>');
+			}
+		});
+		$('#container').html(html.join(''));
           $("#keyword").keyup(function() {
             var k = $(this).val();
             $("#etc-table > tbody > tr").hide();
@@ -26,17 +41,6 @@
         #etc-table > thead > tr > th { padding: 8px; width: 150px; }
         #etc-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
 </style>
-<script>
-$(document).ready(function() {
-$.getJSON('sky_etc.json', function(data) {
-var html = '';
-$each(data,function(entryindex, entry) {
-	html += '<td class="ID">';
-	html += '<td class="Name">';
-	html += '<td class="귀속">';
-	html += '<td class="레벨">';
-});
-</script>
 </HEAD>
 <BODY>
     <div id="container">
