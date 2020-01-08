@@ -5,7 +5,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
         jQuery('document').ready(function() {
-	$.getJSON('url: "sky.json"', function(data) {
+	$.getJSON('./sky_etc.json', function(data) {
 		var html = [];
 		
 		$.each(data, function(i, item){
@@ -19,7 +19,7 @@
 				html.push('/tr>');
 			}
 		});
-		$('#container').html(html.join(''));
+		$('#etc-table').html(html.join(''));
           $("#keyword").keyup(function() {
             var k = $(this).val();
             $("#etc-table > tbody > tr").hide();
