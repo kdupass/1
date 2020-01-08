@@ -4,22 +4,23 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
+        $(function () {
+            $.getJSON('https://github.com/kdupass/sky/blob/master/sky_etc.json', function (data) {
+                var html = '';
+                $.each(data, function (key, value) {
+                    html += '<tr>';
+                    html += '<td>' + ID + '</td>';
+                    html += '<td>' + Name + '</td>';
+                    html += '<td>' + 귀속 + '</td>';
+                    html += '<td>' + 레벨 + '</td>';
+                    html += '</tr>';
+                });
+                $("#etc_table").html(html);
+            });
+        });
+</script>
+<script>
         jQuery('document').ready(function() {
-	$.getJSON('./sky_etc.json', function(data) {
-		var html = [];
-		
-		$.each(data, function(i, item){
-			console.log(item.users.length);
-			for(var num = 0; num < item.users.length; num++){
-				html.push('<tr>');
-				html.push('<td> ID : '+item.users[num].ID+'</td>');
-				html.push('<td> 이름 : '+item.users[num].Name+'</td>');
-				html.push('<td> 귀속 : '+item.users[num].귀속+'</td>');
-				html.push('<td> 레벨 : '+item.users[num].레벨+'</td>');
-				html.push('/tr>');
-			}
-		});
-		$('#etc-table').html(html.join(''));
           $("#keyword").keyup(function() {
             var k = $(this).val();
             $("#etc-table > tbody > tr").hide();
