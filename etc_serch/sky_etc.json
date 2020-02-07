@@ -1,8 +1,9 @@
-[
+{
+"results": [
 	{
 		"itemid" : "6302" ,
-		"name" : "���Ĵ���" ,
-		"bind" : "BIND_NONE" ,
+		"name" : "���Ĵ���",
+		"bind" : "BIND_NONE",
 		"level" : "31"
 	},
 	{
@@ -42006,3 +42007,4 @@
 		"level" : "1"
 	}
 ]
+}
