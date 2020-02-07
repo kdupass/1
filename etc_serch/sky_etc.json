@@ -1,10 +1,10 @@
 {
 "results": [
  {
-   "itemid": 2500001,
+   "itemid": "2500001",
    "Name": "군비 물자",
    "bind": "BIND_GET",
-   "level": 1
+   "level": "1"
  },
  {
    "itemid": 2500002,
