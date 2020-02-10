@@ -6,7 +6,7 @@
 </style>
 <script>
 $(document).ready(function() {
-  $.getJSON("test.json", function (data) {
+  $.getJSON("/test.json", function (data) {
     var test = [];
 
     $.each(data, function(i, item) {
@@ -49,6 +49,9 @@ $(document).ready(function() {
         <h1>Search</h1>
         <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
       </div>
-      <div id="enter" />
+      <div class="container">
+      <div id="enter">
+      </div>
+    </div>
 </body>
 </html>
