@@ -1,5 +1,4 @@
-const endpoint =
-  "https://gist.githubusercontent.com/kdupass/692ca7d156bd76f49fe94e0e8f90baf3/raw/e59a7433b16b9c8e0f42075d2b2882cc63e24434/test.json";
+const endpoint = "cities.json";
 
   const cities = [];
 
