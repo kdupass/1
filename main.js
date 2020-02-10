@@ -1,4 +1,4 @@
-const endpoint = "cities.json";
+const endpoint = "./cities.json";
 
   const cities = [];
 
