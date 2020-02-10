@@ -1,4 +1,4 @@
-const endpoint = "test.json";
+const endpoint = "https://gist.github.com/kdupass/692ca7d156bd76f49fe94e0e8f90baf3.js";
 
 const items = [];
 
