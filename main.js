@@ -1,5 +1,4 @@
-const endpoint =
-  "/test.json";
+const endpoint = "https://raw.githubusercontent.com/kdupass/sky/master/test.json";
 
 const items = [];
 
