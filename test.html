@@ -23,7 +23,7 @@ $(document).ready(function() {
   });
 });
   </script>
-  <script type="text/javascript">
+<!-- </script type="text/javascript">  잠시 삭제
 
       function filter(){
 
@@ -34,14 +34,14 @@ $(document).ready(function() {
 
         for(i=0;i<item.length;i++){
           name = item[i].getElementsByClassName("name");
-          if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
+          if(name[0].innerHTML.indexOf(value) > -1){
             item[i].style.display = "flex";
           }else{
             item[i].style.display = "none";
           }
         }
       }
-</script>
+</script> -->
 </head>
 <body>
    <div class="searchbox">
@@ -49,7 +49,7 @@ $(document).ready(function() {
         <h1>Search</h1>
         <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
       </div>
-      <div class="container">
+    <!-- </div class="container"> 잠시 삭제 -->
       <div id="enter">
       </div>
     </div>
