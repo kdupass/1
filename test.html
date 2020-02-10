@@ -16,6 +16,10 @@ $(document).ready(function() {
       test.push('</div>');
 
     });
+
+    console.log(test);
+
+    $('#enter').test(test.join(''));
   });
 });
   </script>
@@ -45,5 +49,6 @@ $(document).ready(function() {
         <h1>Search</h1>
         <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
       </div>
+      <div id="enter" />
 </body>
 </html>
