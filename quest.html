@@ -8,28 +8,27 @@
   background-color: pink;
   float:left;
 }
-#quest {
+#p0 {
+  display: none;
   width:400px;
   height:700px;
   background-color: orange;
   float:left;
 }
 </style>
-<!-- <script>
-  $(document).ready(function() {
-    $('#p0').click(function() {
+<script>
+  $(function (){
+    $("#butp0").click(function () {
+      $("#p0").toggle();
     });
   });
-</script> -->
+</script>
 </head>
 <body>
 <div id="container">
-  <div class="part" id="p0">
-가나다
-  </div>
+  <button id="butp0">서장</button>
 </div>
-<div id="quest">
-라마바
+<div id="p0"> 횽 횽횽
 </div>
 </body>
 </html>
