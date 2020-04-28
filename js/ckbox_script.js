@@ -8,6 +8,6 @@ for (j = 0; j < check_Box.length; j++) {
  }else{
   check_Box[j].checked = false;
   disign.style.display = "none";
-  };
-  };
-};
+  }
+  }
+}
