@@ -11,9 +11,8 @@ div{text-align:}
 #q0_table > thead > tr { background-color: #333; color:#fff; }
 #q0_table > thead > tr > th { padding: 8px; width: 150px; }
 #q0_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/*div 위치 잡기 */
-#q2 {position:relative;}
-#j1 {position:absolute; top:100px; left:100px;}
+/* 직업퀘스트 div */
+#q2 div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
 /* 직업퀘스트 태백 css */
 #job1 {margin: 0 auto; text-align: center;}
 #job1 {border-collapse: collapse;}
