@@ -9,7 +9,7 @@ function proc(result){
       str += '<td>' + item.P.id + '</td>';
       str += '<td>' + item.C.quest + '</td>';
       str += '<td>' + item.C.id + '</td></tr>';
-      $("#quest1-table").append(str);
+      $("#quest1_table").append(str);
   });
 };
 <!-- json 파일 불러오기-->
