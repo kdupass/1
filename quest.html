@@ -3,14 +3,20 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>퀘스트</title>
+<!-- 버튼 Css/JS 시작 -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<style>
 			p { margin:20px 0px; }
 		</style>
-		<link rel="stylesheet" href="css/table_quest.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- 버튼 Css/JS 종료 -->
+<!-- 테이블 Css 적용 -->
+				<link rel="stylesheet" href="css/table_quest.css">
+<!-- json 적용 (DB 테이블) -->
+		<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- JS 적용 -->
 <script type="text/javascript" src="js/ckbox_script.js"> </script>
 <script type="text/javascript" src="js/table_quest.js"> </script>
 <!-- <style>
@@ -30,6 +36,7 @@ div{text-align:}
   </head>
 	<body>
 		<div id="all">
+<!-- 좌측 라벨 버튼 시작 -->
       <div id="choice">
 					<p><strong>메인 퀘스트</strong></p>
 				<!--	<div class="btn-group btn-group-toggle" data-toggle="buttons"> -->
@@ -44,20 +51,25 @@ div{text-align:}
             </label> <br>
 			<!--		</div> -->
         </div>
+<!-- 좌측 라벨 버튼 종료 -->
       </p>
+<!-- 가운데 메인 div / table -->
           <div id="content">
+<!-- 1번 table 시작 -->
           <div id="1">
 						<table id="quest1_table">
 							<strong>서장: 강호출도</strong></p>
 							<thead>
 						 	<tr>
-								<th>area</th><th>P.quest</th><th>P.id</th><th>C.quest</th><th>C.id</th>
+								<th>area</th><th>Pquest</th><th>Pid</th><th>Cquest</th><th>Cid</th>
 							</tr>
 							</thead>
+<!-- tbody 영역 json(db) -->
 							<tbody>
 							</tbody>
 							</table>
 						</div>
+<!-- 1번 table 종료 -->
           <div id="2"> 2번 이옵니다 </div>
           <div id="3"> 3번 이옵니다 </div>
         </div>
