@@ -9,7 +9,7 @@ function proc(result){
       str += '<td>' + item.pid + '</td>';
       str += '<td>' + item.cquest + '</td>';
       str += '<td>' + item.cid + '</td></tr>';
-      $("#quest1_table").append(str);
+      $("#q0_table").append(str);
   });
 };
 <!-- json 파일 불러오기-->
