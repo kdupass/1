@@ -20,6 +20,7 @@
 				<link rel="stylesheet" href="css/table_quest.css">
 <!-- 스크립트 적용 -->
 <script type="text/javascript" src="js/ckbox_script.js"> </script>
+<script type="text/javascript" src="js/ckjob.js"> </script>
 <script type="text/javascript" src="js/quest_0.js"> </script>
   </head>
 	<body>
@@ -42,7 +43,7 @@
 <!-- 가운데 메인 div / table -->
           <div id="content">
 <!-- 1번 table 시작 -->
-          <div id="1">
+          <div id="q1">
 						<table id="q0_table">
 							<strong>서장: 강호출도</strong></p>
 							<thead>
@@ -50,20 +51,21 @@
 								<th>area</th><th>pquest</th><th>pid</th><th>cquest</th><th>cid</th><th>job</th>
 							</tr>
 							</thead>
-<!-- tbody 영역 json(db) -->
+<!-- tbody 영역 json(db ) -->
 							<tbody>
 							</tbody>
 							</table>
 						</div>
 <!-- 1번 table 종료 -->
-          <div id="2">
+          <div id="q2">
 						<label for="ckjob1" class="btn btn-outline-warning"> 태백
-							<input type="radio" name="ckjob" id="ckjob1" value="" onClick="checkBox()">
+							<input type="radio" name="ckjob" id="ckjob1" value="" onClick="checkjob()">
 						</label>
 						<label for="ckjob2" class="btn btn-outline-warning"> 신위
-							<input type="radio" name="ckjob" id="ckjob2" value="" onClick="checkBox()">
+							<input type="radio" name="ckjob" id="ckjob2" value="" onClick="checkjob()">
 						</label></p>
-					 <table id="qjob1">
+						<div id="j1">
+					 <table id="job1">
 							<strong>태백 1장 ~ 3장</strong></p>
 						<thead>
 						<tr>
@@ -73,8 +75,21 @@
 						<tbody>
 						</tbody>
 					</table>
+					</div>
+					<div id="j2">
+					<table id="job2">
+						 <strong>신위 1장 ~ 3장</strong></p>
+					 <thead>
+					 <tr>
+						 <th>area</th><th>pquest</th><th>pid</th><th>cquest</th><th>cid</th><th>job</th>
+					 </tr>
+					 </thead>
+					 <tbody>
+					 </tbody>
+				 </table>
 						</div>
-          <div id="3"> 3번 이옵니다 </div>
+					</div>
+          <div id="q3"> 3번 이옵니다 </div>
         </div>
 		</div>
 	</body>
