@@ -4,18 +4,18 @@ function proc(result){
 
     <!-- tbody에 출력 -->
 
-    var str = '<tr><td>'+item.name+'</td>';
-      str += '<td>' + item.itemid + '</td>';
-      str += '<td>' + item.bind + '</td>';
-      str += '<td>' + item.level + '</td>';
-      str += '<td>' + item.job + '</td></tr>';
-      $("#equipdb-table").append(str);
+    var str = '<tr><td>'+item.area+'</td>';
+      str += '<td>' + item.P.quest + '</td>';
+      str += '<td>' + item.P.id + '</td>';
+      str += '<td>' + item.C.quest + '</td>';
+      str += '<td>' + item.C.id + '</td></tr>';
+      $("#quest1-table").append(str);
   });
 };
 <!-- json 파일 불러오기-->
 $(document).ready(function() {
     $.ajax({
-      url: './json/equipdb.json',
+      url: './json/qeust.json',
       success : function (result) {
         proc(result);
       }
