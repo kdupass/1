@@ -5,8 +5,15 @@ div{text-align:}
 #choice{ width:30%;float:left;}
 #content{width:70%;float:left; }
 #content div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
+/* 0장 테이블 css */
 #q0_table {margin: 0 auto; text-align: center;}
 #q0_table {border-collapse: collapse;}
 #q0_table > thead > tr { background-color: #333; color:#fff; }
 #q0_table > thead > tr > th { padding: 8px; width: 150px; }
 #q0_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 태백 css */
+#qjob1 {margin: 0 auto; text-align: center;}
+#qjob1 {border-collapse: collapse;}
+#qjob1 > thead > tr { background-color: #E8F5FF; color:#fff; }
+#qjob1 > thead > tr > th { padding: 8px; width: 150px; }
+#qjob1 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
