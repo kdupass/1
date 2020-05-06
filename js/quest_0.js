@@ -9,7 +9,7 @@ function proc(result){
       str += '<td>' + item.pid + '</td>';
       str += '<td>' + item.cquest + '</td>';
       str += '<td>' + item.cid + '</td>'
-      str += '<td>' + item.job + '</td>''</tr>';
+      str += '<td>' + item.job + '</td></tr>';
       $("#q0_table").append(str);
   });
 };
