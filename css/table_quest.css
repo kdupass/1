@@ -5,8 +5,8 @@ div{text-align:}
 #choice{ width:30%;float:left;}
 #content{width:70%;float:left; }
 #content div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
-#quest1_table {margin: 0 auto; text-align: center;}
-#quest1_table {border-collapse: collapse;}
-#quest1_table > thead > tr { background-color: #333; color:#fff; }
-#quest1_table > thead > tr > th { padding: 8px; width: 150px; }
-#quest1_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+#q0_table {margin: 0 auto; text-align: center;}
+#q0_table {border-collapse: collapse;}
+#q0_table > thead > tr { background-color: #333; color:#fff; }
+#q0_table > thead > tr > th { padding: 8px; width: 150px; }
+#q0_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
