@@ -2,7 +2,7 @@
 #container #input-form {text-align: center;}
 #equipdb-table {margin: 0 auto; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
-
+#content div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
 #equipdb-table {border-collapse: collapse;}
 #equipdb-table > thead > tr { background-color: #333; color:#fff; }
 #equipdb-table > thead > tr > th { padding: 8px; width: 150px; }
