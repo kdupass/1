@@ -5,10 +5,10 @@ function proc(result){
     <!-- tbody에 출력 -->
 
     var str = '<tr><td>'+item.area+'</td>';
-      str += '<td>' + item.P.quest + '</td>';
-      str += '<td>' + item.P.id + '</td>';
-      str += '<td>' + item.C.quest + '</td>';
-      str += '<td>' + item.C.id + '</td></tr>';
+      str += '<td>' + item.Pquest + '</td>';
+      str += '<td>' + item.Pid + '</td>';
+      str += '<td>' + item.Cquest + '</td>';
+      str += '<td>' + item.Cid + '</td></tr>';
       $("#quest1_table").append(str);
   });
 };
