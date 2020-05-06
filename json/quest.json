@@ -2,106 +2,106 @@
  {
    "area": "구화",
    "P.quest": "떠도는 풍문",
-   "P.id": 1,
-   "C.quest": "첫 강호행",
-   "C.id": 31
+   "Pid": 1,
+   "Cquest": "첫 강호행",
+   "Cid": 31
  },
  {
    "area": "구화",
-   "P.quest": " ",
-   "P.id":  ,
-   "C.quest": "소식 탐문",
-   "C.id": 32
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "소식 탐문",
+   "Cid": 32
  },
  {
    "area": "구화",
-   "P.quest": "대나무 숲",
-   "P.id":  ,
-   "C.quest": " ",
-   "C.id":
+   "Pquest": "대나무 숲",
+   "Pid": 2,
+   "Cquest": "-",
+   "Cid": "-"
  },
  {
    "area": "구화",
-   "P.quest": "죽림전투",
-   "P.id": 3,
-   "C.quest": " ",
-   "C.id":
+   "Pquest": "죽림전투",
+   "Pid": 3,
+   "Cquest": "-",
+   "Cid": "-"
  },
  {
    "area": "구화",
-   "P.quest": "맹가장",
-   "P.id": 4,
-   "C.quest": "장원 입구",
-   "C.id": "(스토리모드)"
+   "Pquest": "맹가장",
+   "Pid": 4,
+   "Cquest": "장원 입구",
+   "Cid": "(스토리모드)"
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "정문 흉수",
-   "C.id": "(스토리모드)"
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "정문 흉수",
+   "Cid": "(스토리모드)"
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "죽음의 장원",
-   "C.id": "(스토리모드)"
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "죽음의 장원",
+   "Cid": "(스토리모드)"
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "후원 전투",
-   "C.id": "(스토리모드)"
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "후원 전투",
+   "Cid": "(스토리모드)"
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "후원 전투",
-   "C.id": "(스토리모드)"
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "후원 전투",
+   "Cid": "(스토리모드)"
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "사라진 흔적",
-   "C.id": "(스토리모드)"
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "사라진 흔적",
+   "Cid": "(스토리모드)"
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "장원 후문",
-   "C.id": "(스토리모드)"
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "장원 후문",
+   "Cid": "(스토리모드)"
  },
  {
    "area": "구화",
-   "P.quest": "흉수 추격",
-   "P.id": 6,
-   "C.quest": "흔적 탐색",
-   "C.id": 17
+   "Pquest": "흉수 추격",
+   "Pid": 6,
+   "Cquest": "흔적 탐색",
+   "Cid": 17
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "쓰러진 무인",
-   "C.id": 18
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "쓰러진 무인",
+   "Cid": 18
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "눈에는 눈",
-   "C.id": 19
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "눈에는 눈",
+   "Cid": 19
  },
  {
-   "area": "",
-   "P.quest": "",
-   "P.id": ,
-   "C.quest": "신음 소리",
-   "C.id": 20
+   "area": "-",
+   "Pquest": "-",
+   "Pid": "-",
+   "Cquest": "신음 소리",
+   "Cid": 20
  },
 ]
