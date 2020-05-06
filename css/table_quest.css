@@ -4,15 +4,13 @@ div{text-align:}
 #all{width:1200px;}
 #choice{width:30%;float:left;}
 #content{width:70%;float:left;}
-#content div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
+#content div{overflow: scroll; display:none;height:700px; padding-top:65px;}
 /* 0장 테이블 css */
 #q0_table {margin: 0 auto; text-align: center;}
 #q0_table {border-collapse: collapse;}
 #q0_table > thead > tr { background-color: #333; color:#fff; }
 #q0_table > thead > tr > th { padding: 8px; width: 150px; }
 #q0_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 div */
-#q2 div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
 /* 직업퀘스트 태백 css */
 #job1 {margin: 0 auto; text-align: center;}
 #job1 {border-collapse: collapse;}
