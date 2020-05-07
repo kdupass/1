@@ -16,8 +16,8 @@ function proc(result){
     });
   };
 
-function proc(result1){
-        $.each(result1, function (index1, job1) {
+function proc(result){
+        $.each(result, function (index, job1) {
 
     var tb = '<tr><td>'+job1.area+'</td>';
         tb += '<td>' + job1.pquest + '</td>';
@@ -42,8 +42,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $.ajax({
       url: './json/q1-tb.json',
-      success : function (result1) {
-        proc(result1);
+      success : function (result) {
+        proc(result);
       }
     });
 });
