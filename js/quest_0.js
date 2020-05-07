@@ -13,13 +13,18 @@ function proc(result){
       str += '<td>' + item.cid + '</td>'
       str += '<td>' + item.job + '</td></tr>';
       $("#q0_table").append(str);
+    });
+  };
 
-    var tb = '<tr><td>'+item.area+'</td>';
-        tb += '<td>' + item.pquest + '</td>';
-        tb += '<td>' + item.pid + '</td>';
-        tb += '<td>' + item.cquest + '</td>';
-        tb += '<td>' + item.cid + '</td>'
-        tb += '<td>' + item.job + '</td></tr>';
+function proc(result1){
+        $.each(result1, function (index, job1) {
+
+    var tb = '<tr><td>'+job1.area+'</td>';
+        tb += '<td>' + job1.pquest + '</td>';
+        tb += '<td>' + job1.pid + '</td>';
+        tb += '<td>' + job1.cquest + '</td>';
+        tb += '<td>' + job1.cid + '</td>'
+        tb += '<td>' + job1.job + '</td></tr>';
         $("#job1").append(tb);
   });
 };
@@ -37,8 +42,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $.ajax({
       url: './json/q1-tb.json',
-      success : function (result) {
-        proc(result);
+      success : function (result1) {
+        proc(result1);
       }
     });
 });
