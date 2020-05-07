@@ -26,8 +26,8 @@ $(document).ready(function() {
 });
 // 1번 테이블 코드 종료 //
 // 2번 테이블 코드//
-function proc(result){
-  $.each(result, function (index, job1) {
+function proc(result1){
+  $.each(result1, function (index1, job1) {
 
 // tbody에 출력
 
@@ -44,8 +44,8 @@ function proc(result){
 $(document).ready(function() {
     $.ajax({
       url: './json/q1-tb.json',
-      success : function (result) {
-        proc(result);
+      success : function (result1) {
+        proc(result1);
       }
     });
 });
