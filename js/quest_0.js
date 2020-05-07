@@ -17,7 +17,7 @@ function proc(result){
   };
 
 function proc(result1){
-        $.each(result1, function (index, job1) {
+        $.each(result1, function (index1, job1) {
 
     var tb = '<tr><td>'+job1.area+'</td>';
         tb += '<td>' + job1.pquest + '</td>';
