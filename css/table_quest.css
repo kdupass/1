@@ -4,20 +4,23 @@ div{text-align:}
 #all{width:1200px;}
 #choice{width:30%;float:left;}
 #content{width:70%;float:left;}
-#content div{overflow: scroll; display:none;height:700px; padding-top:65px;}
+#content div{display:none;height:700px; padding-top:65px;}
 /* 0장 테이블 css */
+#q1 {overflow: scroll;}
 #q0_table {margin: 0 auto; text-align: center;}
 #q0_table {border-collapse: collapse;}
 #q0_table > thead > tr { background-color: #333; color:#fff; }
 #q0_table > thead > tr > th { padding: 8px; width: 150px; }
 #q0_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
 /* 직업퀘스트 태백 css */
+#j1 {overflow: scroll;}
 #job1 {margin: 0 auto; text-align: center;}
 #job1 {border-collapse: collapse;}
 #job1 > thead > tr { background-color: #E8F5FF; color:#fff; }
 #job1 > thead > tr > th { padding: 8px; width: 150px; }
 #job1 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
 /* 직업퀘스트 신위 css */
+#j2 {overflow: scroll;}
 #job2 {margin: 0 auto; text-align: center;}
 #job2 {border-collapse: collapse;}
 #job2 > thead > tr { background-color: #E8F5FF; color:#fff; }
