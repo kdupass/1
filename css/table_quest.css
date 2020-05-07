@@ -4,7 +4,7 @@ div{text-align:}
 #all{width:1200px;}
 #choice{width:30%;float:left;}
 #content{width:70%;float:left;}
-#content div{display:none;height:700px; padding-top:65px;}
+#content div{display:none; height:700px; padding-top:65px;}
 /* 0장 테이블 css */
 #q1 {overflow: scroll;}
 #q0_table {margin: 0 auto; text-align: center;}
