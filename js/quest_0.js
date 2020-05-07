@@ -13,6 +13,14 @@ function proc(result){
       str += '<td>' + item.cid + '</td>'
       str += '<td>' + item.job + '</td></tr>';
       $("#q0_table").append(str);
+
+    var tb = '<tr><td>'+item.area+'</td>';
+        tb += '<td>' + item.pquest + '</td>';
+        tb += '<td>' + item.pid + '</td>';
+        tb += '<td>' + item.cquest + '</td>';
+        tb += '<td>' + item.cid + '</td>'
+        tb += '<td>' + item.job + '</td></tr>';
+        $("#job1").append(tb);
   });
 };
 // json 파일 불러오기
@@ -25,3 +33,12 @@ $(document).ready(function() {
     });
 });
 // 1번 테이블 코드 종료 //
+
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-tb.json',
+      success : function (result) {
+        proc(result);
+      }
+    });
+});
