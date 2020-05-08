@@ -123,7 +123,7 @@ function proc5(result){
 // json 파일 불러오기
 $(document).ready(function() {
     $.ajax({
-      url: './json/q1-gb.json',
+      url: './json/q1-dm.json',
       async:false,
       success : function (result) {
         proc5(result);
