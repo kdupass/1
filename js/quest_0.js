@@ -105,3 +105,29 @@ $(document).ready(function() {
     });
 });
 // 개방 1~3장 퀘스트 코드 종료 //
+// 개방 1~3장 퀘스트 코드//
+function proc5(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var dm = '<tr><td>'+item.area+'</td>';
+      dm += '<td>' + item.pquest + '</td>';
+      dm += '<td>' + item.pid + '</td>';
+      dm += '<td>' + item.cquest + '</td>';
+      dm += '<td>' + item.cid + '</td>'
+      dm += '<td>' + item.job + '</td></tr>';
+      $("#job4").append(dm);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-gb.json',
+      async:false,
+      success : function (result) {
+        proc5(result);
+      }
+    });
+});
+// 개방 1~3장 퀘스트 코드 종료 //
