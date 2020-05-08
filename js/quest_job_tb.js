@@ -17,6 +17,7 @@ function proc(tbresult){
 $(document).ready(function() {
     $.ajax({
       url: './json/q1-tb.json',
+      async:false,
       success : function (tbresult) {
         proc(tbresult);
       }
