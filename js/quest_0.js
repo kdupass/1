@@ -1,7 +1,7 @@
 
 // 1번 테이블 코드 //
 // 코드의 양이 많아서 result값 받아서 실행하는 proc(result) 함수 생성
-function proc(result){
+function proc1(result){
   $.each(result, function (index, item) {
 
 // tbody에 출력
@@ -20,7 +20,7 @@ function proc(result){
 $(document).ready(function(result) {
   $.ajax({
     url: './json/q0.json',
-    async:false,
+    //async:false,
     success : function (result) {
       proc(result);
     }
