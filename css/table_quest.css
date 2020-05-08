@@ -23,6 +23,20 @@ div{text-align:}
 #j2 {overflow: scroll;}
 #job2 {margin: 0 auto; text-align: center;}
 #job2 {border-collapse: collapse;}
-#job2 > thead > tr { background-color: #E8F5FF; color:#fff; }
+#job2 > thead > tr { background-color: #FF9B00; color:#fff; }
 #job2 > thead > tr > th { padding: 8px; width: 150px; }
 #job2 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 개방 css */
+#j3 {overflow: scroll;}
+#job3 {margin: 0 auto; text-align: center;}
+#job3 {border-collapse: collapse;}
+#job3 > thead > tr { background-color: #2C952C; color:#fff; }
+#job3 > thead > tr > th { padding: 8px; width: 150px; }
+#job3 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 당문 css */
+#j4 {overflow: scroll;}
+#job4 {margin: 0 auto; text-align: center;}
+#job4 {border-collapse: collapse;}
+#job4 > thead > tr { background-color: #B750EA; color:#fff; }
+#job4 > thead > tr > th { padding: 8px; width: 150px; }
+#job4 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
