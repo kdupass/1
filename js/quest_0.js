@@ -20,6 +20,7 @@ function proc(result){
 $(document).ready(function(result) {
   $.ajax({
     url: './json/q0.json',
+    async:false,
     success : function (result) {
       proc(result);
     }
