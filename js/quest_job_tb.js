@@ -1,15 +1,15 @@
 // 2번 테이블 코드//
-function proc(tbresult){
-  $.each(tbresult, function (index, tquest) {
+function proc2(result){
+  $.each(result, function (index, item) {
 
 // tbody에 출력
 
-    var tb = '<tr><td>'+tquest.area+'</td>';
-      tb += '<td>' + tquest.pquest + '</td>';
-      tb += '<td>' + tquest.pid + '</td>';
-      tb += '<td>' + tquest.cquest + '</td>';
-      tb += '<td>' + tquest.cid + '</td>'
-      tb += '<td>' + tquest.job + '</td></tr>';
+    var tb = '<tr><td>'+item.area+'</td>';
+      tb += '<td>' + item.pquest + '</td>';
+      tb += '<td>' + item.pid + '</td>';
+      tb += '<td>' + item.cquest + '</td>';
+      tb += '<td>' + item.cid + '</td>'
+      tb += '<td>' + item.job + '</td></tr>';
       $("#job1").append(tb);
   });
 };
@@ -17,9 +17,9 @@ function proc(tbresult){
 $(document).ready(function() {
     $.ajax({
       url: './json/q1-tb.json',
-      async:false,
-      success : function (tbresult) {
-        proc(tbresult);
+      // async:false,
+      success : function (result) {
+        proc(result);
       }
     });
 });
