@@ -13,23 +13,23 @@
       "pid":27005,
       "cquest":"안부인사",
       "cid":27006,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"사전준비",
       "cid":27007,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"의복단장",
       "pid":27010,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
@@ -37,15 +37,15 @@
       "pid":27015,
       "cquest":"당문 절학",
       "cid":27016,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"심기단련",
       "cid":27017,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -53,15 +53,15 @@
       "pid":27020,
       "cquest":"좌선의 힘",
       "cid":27170,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"파촉 당문",
       "cid":27171,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -69,47 +69,47 @@
       "pid":27025,
       "cquest":"추혼방 형제",
       "cid":27026,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"직계 제자",
       "cid":27027,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"깊은 원한",
       "cid":27028,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"오랜 친구",
       "cid":27029,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"파촉 당문",
       "cid":27036,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"당문 대부인",
       "cid":27037,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -117,23 +117,23 @@
       "pid":27030,
       "cquest":"쌍둥이형제",
       "cid":27031,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"단서 추적",
       "cid":27032,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"새로운 인형",
       "pid":27035,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
@@ -141,15 +141,15 @@
       "pid":27040,
       "cquest":"두려운 마음",
       "cid":27041,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"말 못할 사정",
       "cid":27042,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -157,39 +157,39 @@
       "pid":27055,
       "cquest":"오리무중",
       "cid":27056,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"드러난 위기",
       "cid":27057,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"불길한 기운",
       "cid":27058,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"힘찬 발걸음",
       "cid":27059,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"재회",
       "cid":27063,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -197,31 +197,31 @@
       "pid":27060,
       "cquest":"돌발사건",
       "cid":27061,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"위기일발",
       "cid":27062,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"언사방주",
       "cid":27066,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"천혼멸절",
       "pid":27080,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
@@ -229,31 +229,31 @@
       "pid":27100,
       "cquest":"오리무중",
       "cid":27101,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"종적 추적",
       "cid":27102,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"세 번째 만남",
       "cid":27103,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"망우곡",
       "pid":27065,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
@@ -261,15 +261,15 @@
       "pid":27070,
       "cquest":"도망자 추격",
       "cid":27071,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"상황 보고",
       "cid":27072,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -277,23 +277,23 @@
       "pid":27075,
       "cquest":"일치단결",
       "cid":27076,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"천일방주",
       "cid":27077,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"추혼방주",
       "cid":27078,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
@@ -301,31 +301,31 @@
       "pid":27085,
       "cquest":"단서 추적",
       "cid":27086,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"기암절벽",
       "pid":27090,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"신출귀몰",
       "pid":27095,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"흑의인 소탕",
       "pid":27120,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
@@ -333,23 +333,23 @@
       "pid":27125,
       "cquest":"용문살수",
       "cid":27127,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"편전 난입",
       "pid":27130,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"혼란의 쇄성루",
       "pid":27135,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
@@ -357,62 +357,62 @@
       "pid":27140,
       "cquest":"일장춘몽",
       "cid":27141,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"자초지종",
       "cid":27142,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"고공활보",
       "cid":27143,
-      "job":null
+      "job":""
    },
    {
       "area":"",
       "pquest":"",
-      "pid":null,
+      "pid":"",
       "cquest":"비참한 최후",
       "cid":27144,
-      "job":null
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"가슴에 새겨진 정",
       "pid":27145,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"어풍신행",
       "pid":27150,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"무림사맹",
       "pid":27155,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    },
    {
       "area":"파촉",
       "pquest":"항주로 이동",
       "pid":27160,
       "cquest":"",
-      "cid":null,
-      "job":null
+      "cid":"",
+      "job":""
    }
 ]
