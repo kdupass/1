@@ -18,10 +18,12 @@ function proc(result){
 
 // json 파일 불러오기
 $(document).ready(function() {
+  $('ckbox1').click(function) {
     $.ajax({
       url: './json/q0.json',
       success : function (result) {
         proc(result);
+        }
       }
     });
 });
