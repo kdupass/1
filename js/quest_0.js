@@ -22,7 +22,7 @@ $(document).ready(function(result) {
     url: './json/q0.json',
     //async:false,
     success : function (result) {
-      proc(result);
+      proc1(result);
     }
   })
 })
