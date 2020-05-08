@@ -61,13 +61,13 @@ function proc3(result){
 
 // tbody에 출력
 
-    var tb = '<tr><td>'+item.area+'</td>';
-      tb += '<td>' + item.pquest + '</td>';
-      tb += '<td>' + item.pid + '</td>';
-      tb += '<td>' + item.cquest + '</td>';
-      tb += '<td>' + item.cid + '</td>'
-      tb += '<td>' + item.job + '</td></tr>';
-      $("#job2").append(tb);
+    var sw = '<tr><td>'+item.area+'</td>';
+      sw += '<td>' + item.pquest + '</td>';
+      sw += '<td>' + item.pid + '</td>';
+      sw += '<td>' + item.cquest + '</td>';
+      sw += '<td>' + item.cid + '</td>'
+      sw += '<td>' + item.job + '</td></tr>';
+      $("#job2").append(sw);
   });
 };
 // json 파일 불러오기
