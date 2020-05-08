@@ -19,7 +19,7 @@ $(document).ready(function() {
       url: './json/q1-tb.json',
       // async:false,
       success : function (result) {
-        proc(result);
+        proc2(result);
       }
     });
 });
