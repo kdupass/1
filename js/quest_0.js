@@ -17,14 +17,14 @@ function proc(result){
   };
 
 // json 파일 불러오기
-$(document).ready(function() {
-  $('ckbox1').click(function) {
-    $.ajax({
-      url: './json/q0.json',
-      success : function (result) {
-        proc(result);
-        }
-      }
-    });
-});
+$(document).ready(function(result) {
+  $.ajax({
+    url: './json/q0.json',
+    success : function (result) {
+      proc(result);
+    }
+  })
+})
+
+
 // 1번 테이블 코드 종료 //
