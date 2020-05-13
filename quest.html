@@ -15,7 +15,6 @@
 <!-- 스크립트 적용 -->
 <script type="text/javascript" src="js/ckbox_script.js"> </script>
 <script type="text/javascript" src="js/quest_0.js"> </script>
-<!-- <script type="text/javascript" src="js/quest_job_tb.js"> </script> -->
   </head>
 	<body>
 		<div id="all">
@@ -211,7 +210,30 @@
 <!-- 직업퀘스트 9번 테이블 div 종료 -->
 			</div>
 <!-- 2번 table 종료 -->
-          <div id="q3"> 3번 이옵니다 </div>
+          <div id="q3">
+<!-- 상단 라벨 버튼 시작 -->
+						<label for="ck410q4" class="btn btn-outline-warning"> 4장
+							<input type="radio" name="ck410q" id="ck410q4" value="" onClick="check410q()">
+						</label>
+						<label for="ck410q5" class="btn btn-outline-warning"> 5장
+							<input type="radio" name="ck410q" id="ck410q5" value="" onClick="check410q()">
+						</label>
+<!-- 상단 라벨 버튼 종료 -->
+<!-- 직업퀘스트 1번 테이블 div 시작 -->
+							<div id="410q4">
+							 <table id="t410q4">
+								<strong>4장 : 이름 </strong></p>
+									<thead>
+										<tr>
+											<th>area</th><th>pquest</th><th>pid</th><th>cquest</th><th>cid</th><th>job</th>
+										</tr>
+									</thead>
+									<tbody>
+									</tbody>
+								</table>
+							 </div>
+<!-- 직업퀘스트 1번 테이블 div 종료 -->
+					</div>
         </div>
 				</div>
 		</div>
