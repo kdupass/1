@@ -75,3 +75,17 @@ div{text-align:}
 #job9 > thead > tr { background-color: #BEEFFF; color:#fff; }
 #job9 > thead > tr > th { padding: 8px; width: 150px; }
 #job9 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 퀘스트 4장 css */
+#d410q1 {overflow: scroll;}
+#t410q4 {margin: 0 auto; text-align: center;}
+#t410q4 {border-collapse: collapse;}
+#t410q4 > thead > tr { background-color: #BEEFFF; color:#fff; }
+#t410q4 > thead > tr > th { padding: 8px; width: 150px; }
+#t410q4 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 퀘스트 5장 css */
+#d410q2 {overflow: scroll;}
+#t410q5 {margin: 0 auto; text-align: center;}
+#t410q5 {border-collapse: collapse;}
+#t410q5 > thead > tr { background-color: #BEEFFF; color:#fff; }
+#t410q5 > thead > tr > th { padding: 8px; width: 150px; }
+#t410q5 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
