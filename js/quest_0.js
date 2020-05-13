@@ -105,7 +105,7 @@ $(document).ready(function() {
     });
 });
 // 개방 1~3장 퀘스트 코드 종료 //
-// 개방 1~3장 퀘스트 코드//
+// 당문 1~3장 퀘스트 코드//
 function proc5(result){
   $.each(result, function (index, item) {
 
@@ -130,4 +130,134 @@ $(document).ready(function() {
       }
     });
 });
-// 개방 1~3장 퀘스트 코드 종료 //
+// 당문 1~3장 퀘스트 코드 종료 //
+// 천향 1~3장 퀘스트 코드//
+function proc6(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var ch = '<tr><td>'+item.area+'</td>';
+      ch += '<td>' + item.pquest + '</td>';
+      ch += '<td>' + item.pid + '</td>';
+      ch += '<td>' + item.cquest + '</td>';
+      ch += '<td>' + item.cid + '</td>'
+      ch += '<td>' + item.job + '</td></tr>';
+      $("#job5").append(ch);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-ch.json',
+      async:false,
+      success : function (result) {
+        proc6(result);
+      }
+    });
+});
+// 천향 1~3장 퀘스트 코드 종료 //
+// 진무 1~3장 퀘스트 코드//
+function proc7(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var jm = '<tr><td>'+item.area+'</td>';
+      jm += '<td>' + item.pquest + '</td>';
+      jm += '<td>' + item.pid + '</td>';
+      jm += '<td>' + item.cquest + '</td>';
+      jm += '<td>' + item.cid + '</td>'
+      jm += '<td>' + item.job + '</td></tr>';
+      $("#job6").append(jm);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-jm.json',
+      async:false,
+      success : function (result) {
+        proc7(result);
+      }
+    });
+});
+// 진무 1~3장 퀘스트 코드 종료 //
+// 오독 1~3장 퀘스트 코드//
+function proc8(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var od = '<tr><td>'+item.area+'</td>';
+      od += '<td>' + item.pquest + '</td>';
+      od += '<td>' + item.pid + '</td>';
+      od += '<td>' + item.cquest + '</td>';
+      od += '<td>' + item.cid + '</td>'
+      od += '<td>' + item.job + '</td></tr>';
+      $("#job7").append(od);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-od.json',
+      async:false,
+      success : function (result) {
+        proc8(result);
+      }
+    });
+});
+// 오독 1~3장 퀘스트 코드 종료 //
+// 신도 1~3장 퀘스트 코드//
+function proc9(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var sd = '<tr><td>'+item.area+'</td>';
+      sd += '<td>' + item.pquest + '</td>';
+      sd += '<td>' + item.pid + '</td>';
+      sd += '<td>' + item.cquest + '</td>';
+      sd += '<td>' + item.cid + '</td>'
+      sd += '<td>' + item.job + '</td></tr>';
+      $("#job8").append(sd);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-sd.json',
+      async:false,
+      success : function (result) {
+        proc9(result);
+      }
+    });
+});
+// 신도 1~3장 퀘스트 코드 종료 //
+// 이화 1~3장 퀘스트 코드//
+function proc10(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var eh = '<tr><td>'+item.area+'</td>';
+      eh += '<td>' + item.pquest + '</td>';
+      eh += '<td>' + item.pid + '</td>';
+      eh += '<td>' + item.cquest + '</td>';
+      eh += '<td>' + item.cid + '</td>'
+      eh += '<td>' + item.job + '</td></tr>';
+      $("#job9").append(eh);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q1-eh.json',
+      async:false,
+      success : function (result) {
+        proc10(result);
+      }
+    });
+});
+// 이화 1~3장 퀘스트 코드 종료 //
