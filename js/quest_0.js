@@ -279,7 +279,7 @@ function proc410q4(result){
 // json 파일 불러오기
 $(document).ready(function() {
     $.ajax({
-      url: './json/q4~q10.json',
+      url: './json/q4-q10.json',
       async:false,
       success : function (result) {
         proc410q4(result);
