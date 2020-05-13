@@ -40,3 +40,38 @@ div{text-align:}
 #job4 > thead > tr { background-color: #B750EA; color:#fff; }
 #job4 > thead > tr > th { padding: 8px; width: 150px; }
 #job4 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 천향 css */
+#j5 {overflow: scroll;}
+#job5 {margin: 0 auto; text-align: center;}
+#job5 {border-collapse: collapse;}
+#job5 > thead > tr { background-color: #FFAAFF; color:#fff; }
+#job5 > thead > tr > th { padding: 8px; width: 150px; }
+#job5 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 진무 css */
+#j6 {overflow: scroll;}
+#job6 {margin: 0 auto; text-align: center;}
+#job6 {border-collapse: collapse;}
+#job6 > thead > tr { background-color: #82F0F0; color:#fff; }
+#job6 > thead > tr > th { padding: 8px; width: 150px; }
+#job6 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 오독 css */
+#j7 {overflow: scroll;}
+#job7 {margin: 0 auto; text-align: center;}
+#job7 {border-collapse: collapse;}
+#job7 > thead > tr { background-color: #3232FF; color:#fff; }
+#job7 > thead > tr > th { padding: 8px; width: 150px; }
+#job7 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 신도 css */
+#j8 {overflow: scroll;}
+#job8 {margin: 0 auto; text-align: center;}
+#job8 {border-collapse: collapse;}
+#job8 > thead > tr { background-color: #FF4646; color:#fff; }
+#job8 > thead > tr > th { padding: 8px; width: 150px; }
+#job8 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
+/* 직업퀘스트 이화 css */
+#j9 {overflow: scroll;}
+#job9 {margin: 0 auto; text-align: center;}
+#job9 {border-collapse: collapse;}
+#job9 > thead > tr { background-color: #BEEFFF; color:#fff; }
+#job9 > thead > tr > th { padding: 8px; width: 150px; }
+#job9 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
