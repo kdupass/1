@@ -261,7 +261,7 @@ $(document).ready(function() {
     });
 });
 // 이화 1~3장 퀘스트 코드 종료 //
-// 신도 1~3장 퀘스트 코드//
+// 4~10 [4장] 퀘스트 코드//
 function proc410q4(result){
   $.each(result, function (index, item) {
 
@@ -286,4 +286,30 @@ $(document).ready(function() {
       }
     });
 });
-// 신도 1~3장 퀘스트 코드 종료 //
+// 4~10 [4장] 퀘스트 코드 종료 //
+// 4~10 [5장] 퀘스트 코드//
+function proc410q5(result){
+  $.each(result, function (index, item) {
+
+// tbody에 출력
+
+    var q5 = '<tr><td>'+item.quest5.area+'</td>';
+      q5 += '<td>' + item.quest5.pquest + '</td>';
+      q5 += '<td>' + item.quest5.pid + '</td>';
+      q5 += '<td>' + item.quest5.cquest + '</td>';
+      q5 += '<td>' + item.quest5.cid + '</td>'
+      q5 += '<td>' + item.quest5.job + '</td></tr>';
+      $("#t410q5").append(q5);
+  });
+};
+// json 파일 불러오기
+$(document).ready(function() {
+    $.ajax({
+      url: './json/q4-q10.json',
+      async:false,
+      success : function (result) {
+        proc410q5(result);
+      }
+    });
+});
+// 4~10 [5장] 퀘스트 코드 종료 //
