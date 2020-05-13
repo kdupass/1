@@ -267,7 +267,17 @@ function proc410q4(result){
 
 // tbody에 출력
 
-    var q4 = '<tr><td>'+item.quest4[area]+'</td>';
+set getjson = q4-q10.json(jsontext)
+
+area = getjson.quest4.get(0).area
+pquest = getjson.quest4.get(0).pquest
+pid = getjson.quest4.get(0).pid
+cquest = getjson.quest4.get(0).cquest
+cid = getjson.quest4.get(0).cid
+job = getjson.quest4.get(0).job
+
+
+    var q4 = '<tr><td>'+item.area +'</td>';
       q4 += '<td>' + item.pquest + '</td>';
       q4 += '<td>' + item.pid + '</td>';
       q4 += '<td>' + item.cquest + '</td>';
