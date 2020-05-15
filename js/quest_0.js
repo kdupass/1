@@ -293,12 +293,12 @@ function proc410q5(result){
 
 // tbody에 출력
 
-    var q5 = '<tr><td>'+item.quest5.area+'</td>';
-      q5 += '<td>' + item.quest5.pquest + '</td>';
-      q5 += '<td>' + item.quest5.pid + '</td>';
-      q5 += '<td>' + item.quest5.cquest + '</td>';
-      q5 += '<td>' + item.quest5.cid + '</td>'
-      q5 += '<td>' + item.quest5.job + '</td></tr>';
+    var q5 = '<tr><td>'+item.q410[1].quest5.area+'</td>';
+      q5 += '<td>' + item.q410[1].quest5.pquest + '</td>';
+      q5 += '<td>' + item.q410[1].quest5.pid + '</td>';
+      q5 += '<td>' + item.q410[1].quest5.cquest + '</td>';
+      q5 += '<td>' + item.q410[1].quest5.cid + '</td>'
+      q5 += '<td>' + item.q410[1].quest5.job + '</td></tr>';
       $("#t410q5").append(q5);
   });
 };
