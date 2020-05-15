@@ -266,7 +266,7 @@ function proc410q4(result){
   $.each(result, function (index, item) {
 
 // tbody에 출력
-    var q4 = '<tr><td>'+item.quest4[area] +'</td>';
+    var q4 = '<tr><td>'+item.quest4['area'] +'</td>';
       q4 += '<td>' + item.pquest + '</td>';
       q4 += '<td>' + item.pid + '</td>';
       q4 += '<td>' + item.cquest + '</td>';
