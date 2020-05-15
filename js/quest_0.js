@@ -267,11 +267,11 @@ function proc410q4(result){
 
 // tbody에 출력
     var q4 = '<tr><td>'+item.quest4['area'] +'</td>';
-      q4 += '<td>' + item.pquest + '</td>';
-      q4 += '<td>' + item.pid + '</td>';
-      q4 += '<td>' + item.cquest + '</td>';
-      q4 += '<td>' + item.cid + '</td>'
-      q4 += '<td>' + item.job + '</td></tr>';
+      q4 += '<td>' + item.quest4['pquest'] + '</td>';
+      q4 += '<td>' + item.quest4['pid'] + '</td>';
+      q4 += '<td>' + item.quest4['cquest'] + '</td>';
+      q4 += '<td>' + item.quest4['cid'] + '</td>'
+      q4 += '<td>' + item.quest4['job'] + '</td></tr>';
       $("#t410q4").append(q4);
   });
 };
