@@ -265,13 +265,14 @@ $(document).ready(function() {
 function proc410q4(result){
   $.each(result, function (index, item) {
 
+// for(var q4_i = 0; q4_i < item.q410[0].)
 // tbody에 출력
-    var q4 = '<tr><td>'+item.q410[0].queset4.area +'</td>';
-      q4 += '<td>' + item.q410[0].queset4.pquest + '</td>';
-      q4 += '<td>' + item.q410[0].queset4.pid + '</td>';
-      q4 += '<td>' + item.q410[0].queset4.cquest + '</td>';
-      q4 += '<td>' + item.q410[0].queset4.cid + '</td>'
-      q4 += '<td>' + item.q410[0].queset4.job + '</td></tr>';
+    var q4 = '<tr><td>'+item.q410[0].quest4.area +'</td>';
+      q4 += '<td>' + item.q410[0].quest4.pquest + '</td>';
+      q4 += '<td>' + item.q410[0].quest4.pid + '</td>';
+      q4 += '<td>' + item.q410[0].quest4.cquest + '</td>';
+      q4 += '<td>' + item.q410[0].quest4.cid + '</td>'
+      q4 += '<td>' + item.q410[0].quest4.job + '</td></tr>';
       $("#t410q4").append(q4);
   });
 };
