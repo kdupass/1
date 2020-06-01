@@ -264,15 +264,13 @@ $(document).ready(function() {
 // 4~10 [4장] 퀘스트 코드//
 function proc410q4(result){
   $.each(result, function (index, item) {
-
-for(var q4_i = 0; q4_i < item.q410[0].quest4.length; q4_i++){
 // tbody에 출력
-    var q4 = '<tr><td>'+item.q410[0].quest4[q4_i].area +'</td>';
-      q4 += '<td>' + item.q410[0].quest4[q4_i].pquest + '</td>';
-      q4 += '<td>' + item.q410[0].quest4[q4_i].pid + '</td>';
-      q4 += '<td>' + item.q410[0].quest4[q4_i].cquest + '</td>';
-      q4 += '<td>' + item.q410[0].quest4[q4_i].cid + '</td>'
-      q4 += '<td>' + item.q410[0].quest4[q4_i].job + '</td></tr>';
+    var q4 = '<tr><td>'+item.area +'</td>';
+      q4 += '<td>' + item.pquest + '</td>';
+      q4 += '<td>' + item.pid + '</td>';
+      q4 += '<td>' + item.cquest + '</td>';
+      q4 += '<td>' + item.cid + '</td>'
+      q4 += '<td>' + item.job + '</td></tr>';
       $("#t410q4").append(q4);
     };
   });
@@ -288,29 +286,29 @@ $(document).ready(function() {
     });
 });
 // 4~10 [4장] 퀘스트 코드 종료 //
-// 4~10 [5장] 퀘스트 코드//
-function proc410q5(result){
-  $.each(result, function (index, item) {
+// 4~10 [5장] 퀘스트 코드
+//function proc410q5(result){
+  //$.each(result, function (index, item) {
 
 // tbody에 출력
 
-    var q5 = '<tr><td>'+item.q410[1].quest5.area+'</td>';
-      q5 += '<td>' + item.q410[1].quest5.pquest + '</td>';
-      q5 += '<td>' + item.q410[1].quest5.pid + '</td>';
-      q5 += '<td>' + item.q410[1].quest5.cquest + '</td>';
-      q5 += '<td>' + item.q410[1].quest5.cid + '</td>'
-      q5 += '<td>' + item.q410[1].quest5.job + '</td></tr>';
-      $("#t410q5").append(q5);
-  });
-};
+    //var q5 = '<tr><td>'+item.q410[1].quest5.area+'</td>';
+      //q5 += '<td>' + item.q410[1].quest5.pquest + '</td>';
+      //q5 += '<td>' + item.q410[1].quest5.pid + '</td>';
+      //q5 += '<td>' + item.q410[1].quest5.cquest + '</td>';
+      //q5 += '<td>' + item.q410[1].quest5.cid + '</td>'
+      //q5 += '<td>' + item.q410[1].quest5.job + '</td></tr>';
+      //$("#t410q5").append(q5);
+  //});
+//};
 // json 파일 불러오기
-$(document).ready(function() {
-    $.ajax({
-      url: './json/q4-q10.json',
-      async:false,
-      success : function (result) {
-        proc410q5(result);
-      }
-    });
-});
+//$(document).ready(function() {
+    //$.ajax({
+      //url: './json/q4-q10.json',
+      //async:false,
+      //success : function (result) {
+        //proc410q5(result);
+      //}
+    //});
+//});
 // 4~10 [5장] 퀘스트 코드 종료 //
