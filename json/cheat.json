@@ -1,0 +1,842 @@
+[
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm setlevel [숫자]",
+      "Content":"캐릭터 레벨 설정",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.setlevel [캐릭터명] [레벨]",
+      "Content":"캐릭터 레벨 설정",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.goname [캐릭터명]",
+      "Content":"다른 캐릭터에게 이동",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.namego [캐릭터명]",
+      "Content":"캐릭터 소환",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.moveobject [캐릭터명] [맵ID]",
+      "Content":"지정 맵으로 이동",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm move [x좌표]00  [y좌표]00",
+      "Content":"좌표 이동",
+      "etc":"좌표뒤에 00을 추가해서 사용"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm heal",
+      "Content":"생명력 회복",
+      "etc":"모든 자원 회복"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.heal [캐릭터명]",
+      "Content":"캐릭터 체력 회복",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm setplayerspeed [숫자]",
+      "Content":"이동속도 조절",
+      "etc":"치트 입력 후 점프+↑+쉬프트 로 경공1회 사용 시 속도가 변경됩니다."
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.speedup",
+      "Content":"이동속도 조절",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm clearbag [캐릭터명]",
+      "Content":"가방속 모든 아이템 삭제",
+      "etc":"착용 중인 가방은 삭제되지 않음"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm learn [스킬ID]",
+      "Content":"특정 스킬 학습",
+      "etc":"스킬 id (수령 완료)"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm forget [캐릭터명] [스킬ID]",
+      "Content":"특정 스킬 삭제",
+      "etc":"스킬 id (수령 완료)"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm learn all",
+      "Content":"모든 스킬 학습",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm learn none",
+      "Content":"모든 스킬 삭제",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm qcancel [퀘스트ID]",
+      "Content":"퀘스트 취소",
+      "etc":"퀘스트 수령 -> 취소\n퀘스트 완료 -> 삭제"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm qaccept [퀘스트ID]",
+      "Content":"퀘스트 수령",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm qcommit [퀘스트ID]",
+      "Content":"퀘스트 완료",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm qclear [퀘스트ID]",
+      "Content":"퀘스트 삭제",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm qclearall",
+      "Content":"모든 퀘스트 삭제",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm add_achv_score [업적ID] [경험치]",
+      "Content":"업적도 설정",
+      "etc":"0 무도풍류 1 은사고수 2 강호대련 3 원양지로"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm setmoney [캐릭터명] [금화속성] [금화 수]",
+      "Content":"게임머니 획득",
+      "etc":"0 거래은량 1 은량 2 전표 3 마일리지 4 천상폐 5 탕검폐 6 승부령 7 논검폐 8 의협도 \n9 천괴폐 11 항해폐 12 원목 13 신백 14 종사령"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm disable_guard",
+      "Content":"자산 보호 시간 삭제",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm inc_fame [숫자]",
+      "Content":"강호명성 획득",
+      "etc":"명성 보상, 명성레벨 증가"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm inc_active [숫자]",
+      "Content":"활약도 설정",
+      "etc":"개인 활약도(=공적도) 증가"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm add_xiuwei [숫자]",
+      "Content":"수양 설정",
+      "etc":"경맥활성화에 사용"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm oppk [숫자]",
+      "Content":"PK지수 설정",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm acupoint [캐릭터명] clear",
+      "Content":"경맥 초기화",
+      "etc":"사용 후 재접속 필수\n폄석 창고의 폄석 모두 소멸"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm acupoint [캐릭터명] unlock",
+      "Content":"경맥 모든 조건 해금",
+      "etc":"모든 독맥 해금"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm acupoint [캐릭터명] convert [숫자]",
+      "Content":"충혈도 설정",
+      "etc":"충혈도 내용을 알 수 없음"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm add_talent_exp 10000000",
+      "Content":"신분 경험치 증가",
+      "etc":"신분 획득 시 가용 수련치 포인트 증가"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm addvitality [숫자]",
+      "Content":"활력치 증가",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm addcraftexp [제작스킬 번호] [경험치]",
+      "Content":"제작 레벨(경험치) 증가",
+      "etc":"제작 습득 후 각 번호에 맞는 값 입력\n(제작 ID는 가로로 1번부터 순서대로)"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm craftlearn 1 10",
+      "Content":"창작 레벨 추가",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm acupoint [캐릭터명] curall",
+      "Content":"레벨에 맞춰 경맥 페이지 오픈",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm addequip [아이템ID]",
+      "Content":"장비 아이탬 획득",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm setequipaddi [Bag] [addiID] [addiID]",
+      "Content":"장비 잠재속성 획득",
+      "etc":"가방 좌상단 첫 번째 칸부터 0으로 시작"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm buygoods [아이템ID] [숫자]",
+      "Content":"아이탬 획득",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm additem [아이템id] [숫자]",
+      "Content":"아이템/장비 획득",
+      "etc":"장비/아이템 구분 없이 이용 가능"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm addbinditem [아이템id] [숫자]",
+      "Content":"귀속 아이템/장비 획득",
+      "etc":"장비/아이템 구분 없이 이용 가능"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm addbuff [buff ID] [시간]",
+      "Content":"버프 설정",
+      "etc":"1033- 은신 버프"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm delbuff [buff ID]",
+      "Content":"버프 삭제",
+      "etc":"1033- 은신 버프"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm listbuff",
+      "Content":"버프 리스트 확인",
+      "etc":"현재 캐릭터에 적용되어있는 버프 리스트 채팅창에 출력"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm listtargetbuff",
+      "Content":"대상의 버프 리스트 확인",
+      "etc":"특정 대상에 적용되어 있는 버프 리스트 출력"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm listai",
+      "Content":"대상의 각종 정보 확인",
+      "etc":"주로 ID찾기용 으로 쓰임"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm killmonster",
+      "Content":"선택한 NPC혹은 몬스터 삭제",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/.seeqq [캐릭터명]",
+      "Content":"캐릭터 OID 확인",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm itc_save [OID] [숫자]",
+      "Content":"거래전표 획득",
+      "etc":"qq -> 계정 OID // number->액수"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm addenemy [몬스터ID]",
+      "Content":"적 추가",
+      "etc":"/.createmonster [ID] 는 사용 가능"
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm add_tempenemy [몬스터ID]",
+      "Content":"임시 적 만들기",
+      "etc":""
+   },
+   {
+      "Class":"캐릭터",
+      "Cheat":"/gm acquiretitle [칭호ID]",
+      "Content":"칭호 지급 치트",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm setservertime [yyyy-mm-dd hh:mm:ss]",
+      "Content":"서버 시간 설정",
+      "etc":"/gm setservertime yyyy-mm-dd hh:mm:ss"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm timelapse 小时-分钟",
+      "Content":"서버 시간 연장",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm set_seal_stage",
+      "Content":"레벨 봉인 설정",
+      "etc":"반응 없음"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm setdelaytime 上行 下行",
+      "Content":"설정 연장",
+      "etc":"사용법 모름"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm setdelaychurn min max",
+      "Content":"인터넷핑(?) 설정",
+      "etc":"반응 없음"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm setactordmgmltp",
+      "Content":"데미지 설정",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm enable_dp  动态阻挡ID",
+      "Content":"동작 저지 키기",
+      "etc":"id 에 0을 입력하면 채널의 투명 벽 작동을 가동"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm disable_dp  动态阻挡ID",
+      "Content":"동작 저지 끄기",
+      "etc":"id 에 0을 입력하면 채널의 투명 벽 작동을 해제"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm getservertime",
+      "Content":"서버 시간 검색",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm daytime 时段（时段取值为[0,23]）",
+      "Content":"시간 설정 (밤,낮)",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm showdaytime",
+      "Content":"시간 검색 (밤,낮)",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm setweather 날씨 번호[1~9] 반복 회수",
+      "Content":"날씨 설정",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm getweather 地图id",
+      "Content":"날씨 획득(?)",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm createentity id",
+      "Content":"물건 창설",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm reflushrespawn",
+      "Content":"몹 리스폰",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm spawnflock flock_id",
+      "Content":"몹 무리 초기화",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm dropparcel 掉落配置ID",
+      "Content":"드랍 설정",
+      "etc":"RandomBox id를 기입하여 드랍 테스트 가능"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm enterplane 位面ID",
+      "Content":"이벤트 입장",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm reset_sc",
+      "Content":"이벤트 초기화",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm createnpc <npcid> [数量]",
+      "Content":"NPC, 몹 소환",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm get_lottery [0/1/2]",
+      "Content":"팔괘점 금/은/동 상 강제 당첨",
+      "etc":"치트 사용 시 금/은/동 상 팔괘점 아이템 지급"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm huaben_count_set 2 10",
+      "Content":"인던 회수 설정",
+      "etc":"사용은 되지만 인던ID 필요\n또한, 현재 횟수가 아닌 최대 횟수 조절이라 사용 주의"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm set_idq_type",
+      "Content":"파티 일퀘 설정",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm hatelist",
+      "Content":"NPC 어그로 표시",
+      "etc":"타겟의 어그로 수치를 대화창에 표시함"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm set_plot plotID plot",
+      "Content":"견문 퀘스트 설정",
+      "etc":"사용법 모름"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm setnetbarstatus [value]",
+      "Content":"PC방 설정",
+      "etc":"0=끄기, 1=켜기"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm addnetbarmoney [value]",
+      "Content":"PC방 포인트 추가",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm add_fv 好友名 6 1000",
+      "Content":"우정포인트 설정",
+      "etc":"상대방과 같은 지역에 있어야 사용 가능"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm rankreset [num]",
+      "Content":"맹회 명성 경험치 분배",
+      "etc":"/gm inc_fame 을 먼저 사용하고, 경험치 분배를 사용하여 강호명성 레벨 증가 가능"
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm get_elo dw",
+      "Content":"elo 수치 확인",
+      "etc":""
+   },
+   {
+      "Class":"설정 관련",
+      "Cheat":"/gm set_elo dw",
+      "Content":"elo 수치 설정",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_duanwei [등급] [점수]",
+      "Content":"논검 등급, 점수 설정",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm add_yusai_win_count 1                                  ",
+      "Content":"예선전 승리횟수추가",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_fusai_win_count 1",
+      "Content":"준결승전 승리횟수추가 ",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_clan_score [점수]",
+      "Content":"3대3 파티등급, 파티 등급점수 설정",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_clan_actor_score [점수]",
+      "Content":"3대3개인등급, 개인 등급점수 설정",
+      "etc":""
+   },
+   {
+      "Class":"캐시 관련",
+      "Cheat":"/gm ksl_op [OID] 6 1 2",
+      "Content":"42,000전표 패키지 구매회수 차감",
+      "etc":"2018.07 업데이트 이후 6 대신 7을 써야 함"
+   },
+   {
+      "Class":"캐시 관련",
+      "Cheat":"/gm ksl_op [OID] 6 1 3",
+      "Content":"42,000전표 패키지 구매회수 복구",
+      "etc":"2018.07 업데이트 이후 6 대신 7을 써야 함"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm familycreate 帮派名 1 帮标(1个字)",
+      "Content":"길드 창설",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm alliancejoin [1~4]",
+      "Content":"맹회 가입",
+      "etc":"사용은 되지만 맹회 변경이 되지 않음\n융성기인 맹회에는 강제로도 가입되지 않음"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm falliancejoin [1~4]",
+      "Content":"맹회 가입",
+      "etc":"융성기인 맹회에도 강제 가입 가능"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manorget 1",
+      "Content":"맹주 획득",
+      "etc":"확인 불가"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manorexp 1 999999999",
+      "Content":"종타 경험치 획득",
+      "etc":"거점 경험치 증가"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm incfamilymoney",
+      "Content":"방파 자금 획득",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm incfamilypower",
+      "Content":"방파 행동력 획득",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm incfamilyexp",
+      "Content":"방파 번영도 획득",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm familybuild",
+      "Content":"방파 건물 건설 시작",
+      "etc":"조금 비정상 동작함"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm familymaintain",
+      "Content":"길드 보수 (5레벨 이하)",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm inccont",
+      "Content":"방파 공헌도획득",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fumanorget ID",
+      "Content":"종타 점령",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/.manorplunder（参数1：几分钟后掠夺战开启  ）（参数2：掠夺战持续分钟）",
+      "Content":"선포전 시작",
+      "etc":"반응 없음"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manor_plunder 总舵id",
+      "Content":"대상에게 종타 선포전",
+      "etc":"GM 커맨드 미존재"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/.manorbattle  总舵id   begin/end",
+      "Content":"쟁탈전 시작",
+      "etc":"반응 없음"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manorbattleenter 总舵id",
+      "Content":"전장 참여 신청",
+      "etc":"반응 없음"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fucreate family_name union_name",
+      "Content":"연맹 개설",
+      "etc":"/gm fucreate [상대방파명] [연맹명]"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fuinfo",
+      "Content":"연맹 정보 검색",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm familyinfo",
+      "Content":"방파 정보 검색",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fumaintain",
+      "Content":"연맹 보수",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fudistmoney money",
+      "Content":"자금 분배",
+      "etc":"연맹금고에서 방파로 돈 분배"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fudistjade jade",
+      "Content":"옥석 분배",
+      "etc":"연맹 옥석창고에서 방파로 옥석 분배"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fuincmoney",
+      "Content":"자금 추가",
+      "etc":"연맹 보유 돈 추가"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fuincinspmoney money",
+      "Content":"자금 격려",
+      "etc":"연맹금고에 돈 추가"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fuincjade jade",
+      "Content":"연맹 옥석 추가",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fuincpower 10000",
+      "Content":"연맹행동력 획득",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manorexp 총타ID 건설도 ",
+      "Content":"건설도 추가",
+      "etc":"(자양 총타는 13 처음레벨업 했을 때 4200  eg. /gm manorexp 13 4200）"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manoraddres manor_id ",
+      "Content":"총타 광석/목재 1만개 추가",
+      "etc":"자양 총타13   eg. /gm manoraddres 13"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm manorbuildexp [자리ID] [값]",
+      "Content":"거점 건죽 경험치 증가",
+      "etc":"자리ID값: 제왕주는 1~12, 나머지는 13~24"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm incfamilyjade [값]",
+      "Content":"방파 옥석 추가",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm setfamilylevel [값]",
+      "Content":"방파 레벨 조절",
+      "etc":""
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm fumanordist",
+      "Content":"종타 분배",
+      "etc":"연맹 세팅 후 사용 가능"
+   },
+   {
+      "Class":"길드연맹관련",
+      "Cheat":"/gm incfamilyhealth [value]",
+      "Content":"방파 활약도 증가",
+      "etc":""
+   },
+   {
+      "Class":"가원관련",
+      "Cheat":"/gm give_land slot_id map_id",
+      "Content":"땅 획득",
+      "etc":"택지 획득"
+   },
+   {
+      "Class":"가원관련",
+      "Cheat":"/gm recycle_land slot_id map_ip",
+      "Content":"획득한 땅 취소",
+      "etc":"획득한 땅 취소"
+   },
+   {
+      "Class":"가원관련",
+      "Cheat":"/gm house_fs_ratio 1",
+      "Content":"가원 건축 확률 상승",
+      "etc":"확인 불가"
+   },
+   {
+      "Class":"가원관련",
+      "Cheat":"/gm house_give_item [NAME][HOUSE_ID][FS_LEVEL]",
+      "Content":"집문서 하나를 우편으로 발송",
+      "etc":"/gm house_give_item [캐릭터명] [집] [풍수도]"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"gm set_fatigue [0~100]",
+      "Content":"항해 피로도 조정",
+      "etc":""
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm create_npc_ship [shipID] [Xpos] [Ypos] ",
+      "Content":"NPC 선박 생성",
+      "etc":"6789"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm addshipbuff [shipbuffID] [버프지속시간]",
+      "Content":"선박에 버프 부여",
+      "etc":"일부 사용가능"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm set_can_unlock_ fog 1",
+      "Content":"안개지역 배로 이동가능",
+      "etc":""
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm unlock_island map_id island_id",
+      "Content":"잠금해제 섬",
+      "etc":""
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm unlock_slot map_id slot_x slot_y ",
+      "Content":"잠금해제 임의좌표 ",
+      "etc":""
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm shipinfo ",
+      "Content":"ship_rid 확인",
+      "etc":""
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm shipreload ship_rid 0",
+      "Content":"모름",
+      "etc":"rid: 선박 아이디"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm shipreload ship_rid 1",
+      "Content":"모름",
+      "etc":"rid: 선박 아이디"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm island_building house_tid level",
+      "Content":"본인 해양 건물 생성로 추정",
+      "etc":"/gm island_building 건물아이디 건물레벨"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"region_id weather loop_times",
+      "Content":"모름",
+      "etc":"날씨 고정으로 추정"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm set_region_event 숫자 1 pos_x pos_y",
+      "Content":"날씨 이벤트 생성으로 추정",
+      "etc":"/gm set_region_event 숫자 이벤트지역 pos_x pos_y\n1: 회오리바람, 2: 소용돌이"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm ship_sethp ship_rid hp",
+      "Content":"모름",
+      "etc":"rid: 선박 아이디"
+   },
+   {
+      "Class":"항해 관련",
+      "Cheat":"/gm shipaddfame ship_rid fame",
+      "Content":"모름",
+      "etc":"rid: 선박 아이디"
+   }
+]
