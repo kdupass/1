@@ -1,0 +1,11 @@
+body{text-align:center;}
+#container {width: 1200px; }
+#home {float:left;}
+#input-form {width:50%; clear:left;}
+#ct {width:50%; clear:left;}
+#cheat-table {margin: 0 auto; float:left; text-align: center;}
+#input-form {margin-top: 10px; margin-bottom: 10px;}
+#cheat-table {border-collapse: collapse;}
+#cheat-table > thead > tr { background-color: #333; color:#fff; }
+#cheat-table > thead > tr > th { padding: 8px; width: 150px; }
+#cheat-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
