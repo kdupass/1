@@ -263,19 +263,14 @@ $(document).ready(function() {
 // 이화 1~3장 퀘스트 코드 종료 //
 // 4~10 [4장] 퀘스트 코드//
 function proc410q4(result){
-  var q410 = $.ajax({
-    dataType: "json",
-    url: './json/q4-q10.json',
-    data: data
-
   $.each(result, function (index, item) {
 // tbody에 출력
-    var q4 = '<tr><td>'+item.q410.quest4[0].area +'</td>';
-      q4 += '<td>' + item.q410.quest4[0].pquest + '</td>';
-      q4 += '<td>' + item.q410.quest4[0].pid + '</td>';
-      q4 += '<td>' + item.q410.quest4[0].cquest + '</td>';
-      q4 += '<td>' + item.q410.quest4[0].cid + '</td>'
-      q4 += '<td>' + item.q410.quest4[0].job + '</td></tr>';
+    var q4 = '<tr><td>'+item.area +'</td>';
+      q4 += '<td>' + item.pquest + '</td>';
+      q4 += '<td>' + item.pid + '</td>';
+      q4 += '<td>' + item.cquest + '</td>';
+      q4 += '<td>' + item.cid + '</td>'
+      q4 += '<td>' + item.job + '</td></tr>';
       $("#t410q4").append(q4);
     };
   });
