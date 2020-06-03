@@ -22,7 +22,7 @@ $(document).ready(function() {
 <!-- 검색 기능-->
 <!-- 첫페이지 로딩을 최소화 하기 위하여 keyup이 아닌 keypress로 설정 -->
     $("#cheat-table > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
-    $("#Class").checked(function() {
+    $("#Class1").click(function() {
       $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
