@@ -30,4 +30,44 @@ $(document).ready(function() {
 
         $(temp).parent().show();
     });
+    $("#Class2").click(function() {
+      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+        var k = $(this).val();
+        $("#cheat-table > tbody > tr").hide();
+        var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
+
+        $(temp).parent().show();
+    });
+    $("#Class3").click(function() {
+      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+        var k = $(this).val();
+        $("#cheat-table > tbody > tr").hide();
+        var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
+
+        $(temp).parent().show();
+    });
+    $("#Class4").click(function() {
+      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+        var k = $(this).val();
+        $("#cheat-table > tbody > tr").hide();
+        var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
+
+        $(temp).parent().show();
+    });
+    $("#Class5").click(function() {
+      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+        var k = $(this).val();
+        $("#cheat-table > tbody > tr").hide();
+        var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
+
+        $(temp).parent().show();
+    });
+    $("#Class6").click(function() {
+      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+        var k = $(this).val();
+        $("#cheat-table > tbody > tr").hide();
+        var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
+
+        $(temp).parent().show();
+    });
 });
