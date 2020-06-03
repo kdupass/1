@@ -1,10 +1,9 @@
-var q410 = $.ajax({
-  dataType: "json",
-  url: './json/q4-q10.json',
-  data: data
-});
 // 4~10 [4장] 퀘스트 코드//
 function proc410q4(result){
+  var q410 = $.ajax({
+    dataType: "json",
+    url: './json/q4-q10.json',
+    data: data
   $.each(result, function (index, item) {
 // tbody에 출력
     var q4 = '<tr><td>'+item.q410.quest4[0].area +'</td>';
@@ -15,6 +14,7 @@ function proc410q4(result){
       q4 += '<td>' + item.q410.quest4[0].job + '</td></tr>';
       $("#t410q4").append(q4);
     };
+  });
   });
 };
 // json 파일 불러오기
