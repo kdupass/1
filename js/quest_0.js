@@ -262,30 +262,30 @@ $(document).ready(function() {
 });
 // 이화 1~3장 퀘스트 코드 종료 //
 // 4~10 [4장] 퀘스트 코드//
-function proc410q4(result){
-  $.each(result, function (index, item) {
+//function proc410q4(result){
+//  $.each(result, function (index, item) {
 // tbody에 출력
-    var q4 = '<tr><td>'+item.area +'</td>';
-      q4 += '<td>' + item.pquest + '</td>';
-      q4 += '<td>' + item.pid + '</td>';
-      q4 += '<td>' + item.cquest + '</td>';
-      q4 += '<td>' + item.cid + '</td>'
-      q4 += '<td>' + item.job + '</td></tr>';
-      $("#t410q4").append(q4);
-    };
-  });
-  });
-};
+//    var q4 = '<tr><td>'+item.area +'</td>';
+//      q4 += '<td>' + item.pquest + '</td>';
+//      q4 += '<td>' + item.pid + '</td>';
+//      q4 += '<td>' + item.cquest + '</td>';
+//      q4 += '<td>' + item.cid + '</td>'
+//      q4 += '<td>' + item.job + '</td></tr>';
+//      $("#t410q4").append(q4);
+//    };
+//  });
+//  });
+//};
 // json 파일 불러오기
-$(document).ready(function() {
-    $.ajax({
-      url: './json/q4-q10.json',
-      async:false,
-      success : function (result) {
-        proc410q4(result);
-      }
-    });
-});
+//$(document).ready(function() {
+//    $.ajax({
+//      url: './json/q4-q10.json',
+//      async:false,
+//      success : function (result) {
+//        proc410q4(result);
+//      }
+//    });
+//});
 // 4~10 [4장] 퀘스트 코드 종료 //
 // 4~10 [5장] 퀘스트 코드
 //function proc410q5(result){
