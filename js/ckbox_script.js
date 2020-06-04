@@ -25,17 +25,3 @@ for (k = 0; k < check_job.length; k++) {
 };
 };
 };
-
-// 퀘스트4장 ~ 10장 체크박스
-// function check410q() {
-//var check_410q = document.getElementsByName("ck410q"); //체크박스 name
-//for (l = 0; l < check_410q.length; l++) {
-//  var disign = document.getElementById("d410"+[l+1]); // 보여질내용
-//  if(check_410q[l].checked == true ){
-//    disign.style.display = "block";
-//  }else{
-//    check_410q[l].checked = false;
-//    disign.style.display = "none";
-//};
-//};
-//};
