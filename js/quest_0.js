@@ -45,7 +45,7 @@ function proc2(result){
 // json 파일 불러오기
 $(document).ready(function() {
     $.ajax({
-      url: './json/q1-tb.json',
+      url: './json/q1.json',
       async:false,
       success : function (result) {
         proc2(result);
