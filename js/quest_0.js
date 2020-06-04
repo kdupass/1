@@ -29,16 +29,15 @@ $(document).ready(function(result) {
 // 서장 퀘스트 코드 종료 //
 // 직업 1~3장 퀘스트 코드 시작
 function proc2(result){
+
   $.each(result, function (index, item) {
-
 // tbody에 출력
-
-    var tb = '<tr><td>'+item.area+'</td>';
+    var tb = '<tr><td>' + item.job + '</td>';
       tb += '<td>' + item.pquest + '</td>';
       tb += '<td>' + item.pid + '</td>';
       tb += '<td>' + item.cquest + '</td>';
       tb += '<td>' + item.cid + '</td>'
-      tb += '<td>' + item.job + '</td></tr>';
+      tb += '<td>'+item.area+'</td></tr>';
       $("#job1").append(tb);
   });
 };
