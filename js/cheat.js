@@ -22,8 +22,10 @@ $(document).ready(function() {
 <!-- 검색 기능-->
 <!-- 첫페이지 로딩을 최소화 하기 위하여 keyup이 아닌 keypress로 설정 -->
     $("#cheat-table > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
+    $("#tip1").hide();
     $("#Class1").click(function() {
       $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#tip1").show();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
