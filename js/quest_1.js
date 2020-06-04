@@ -3,7 +3,8 @@ function proc410q4(result){
 
   $.each(result, function (index, item) {
 // tbody에 출력
-    var q4 = '<tr><td>'+item.area +'</td>';
+    var q4 = '<tr><td>' +item.part + '</td>';
+      q4 += '<td>'+item.area +'</td>';
       q4 += '<td>' + item.pquest + '</td>';
       q4 += '<td>' + item.pid + '</td>';
       q4 += '<td>' + item.cquest + '</td>';
@@ -17,7 +18,6 @@ function proc410q4(result){
 $(document).ready(function() {
     $.ajax({
       url: './json/q4-q10.json',
-      async:false,
       success : function (result) {
         proc410q4(result);
       }
@@ -30,7 +30,7 @@ $(document).ready(function() {
       $("#t410q4 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
         $("#t410 > tbody > tr").hide();
-        var tempq410 = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + a + "')");
+        var tempq410 = $("#cheat-table > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
         $(tempq410).parent().show();
     });
@@ -38,7 +38,7 @@ $(document).ready(function() {
       $("#t410q4 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
         $("#t410 > tbody > tr").hide();
-        var tempq410 = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + a + "')");
+        var tempq410 = $("#cheat-table > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
         $(tempq410).parent().show();
     });
