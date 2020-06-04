@@ -12,80 +12,17 @@ div{text-align:}
 #q0_table > thead > tr { background-color: #333; color:#fff; }
 #q0_table > thead > tr > th { padding: 8px; width: 150px; }
 #q0_table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 태백 css */
+/* 직업퀘스트 1~3장 css */
 #j1 {overflow: scroll;}
 #job1 {margin: 0 auto; text-align: center;}
 #job1 {border-collapse: collapse;}
 #job1 > thead > tr { background-color: #E8F5FF; color:#fff; }
 #job1 > thead > tr > th { padding: 8px; width: 150px; }
 #job1 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 신위 css */
-#j2 {overflow: scroll;}
-#job2 {margin: 0 auto; text-align: center;}
-#job2 {border-collapse: collapse;}
-#job2 > thead > tr { background-color: #FF9B00; color:#fff; }
-#job2 > thead > tr > th { padding: 8px; width: 150px; }
-#job2 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 개방 css */
-#j3 {overflow: scroll;}
-#job3 {margin: 0 auto; text-align: center;}
-#job3 {border-collapse: collapse;}
-#job3 > thead > tr { background-color: #2C952C; color:#fff; }
-#job3 > thead > tr > th { padding: 8px; width: 150px; }
-#job3 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 당문 css */
-#j4 {overflow: scroll;}
-#job4 {margin: 0 auto; text-align: center;}
-#job4 {border-collapse: collapse;}
-#job4 > thead > tr { background-color: #B750EA; color:#fff; }
-#job4 > thead > tr > th { padding: 8px; width: 150px; }
-#job4 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 천향 css */
-#j5 {overflow: scroll;}
-#job5 {margin: 0 auto; text-align: center;}
-#job5 {border-collapse: collapse;}
-#job5 > thead > tr { background-color: #FFAAFF; color:#fff; }
-#job5 > thead > tr > th { padding: 8px; width: 150px; }
-#job5 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 진무 css */
-#j6 {overflow: scroll;}
-#job6 {margin: 0 auto; text-align: center;}
-#job6 {border-collapse: collapse;}
-#job6 > thead > tr { background-color: #82F0F0; color:#fff; }
-#job6 > thead > tr > th { padding: 8px; width: 150px; }
-#job6 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 오독 css */
-#j7 {overflow: scroll;}
-#job7 {margin: 0 auto; text-align: center;}
-#job7 {border-collapse: collapse;}
-#job7 > thead > tr { background-color: #3232FF; color:#fff; }
-#job7 > thead > tr > th { padding: 8px; width: 150px; }
-#job7 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 신도 css */
-#j8 {overflow: scroll;}
-#job8 {margin: 0 auto; text-align: center;}
-#job8 {border-collapse: collapse;}
-#job8 > thead > tr { background-color: #FF4646; color:#fff; }
-#job8 > thead > tr > th { padding: 8px; width: 150px; }
-#job8 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 직업퀘스트 이화 css */
-#j9 {overflow: scroll;}
-#job9 {margin: 0 auto; text-align: center;}
-#job9 {border-collapse: collapse;}
-#job9 > thead > tr { background-color: #BEEFFF; color:#fff; }
-#job9 > thead > tr > th { padding: 8px; width: 150px; }
-#job9 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 퀘스트 4장 css */
+/* 퀘스트 4장 ~ 10장 css */
 #d410 {overflow: scroll;}
 #t410 {margin: 0 auto; text-align: center;}
 #t410 {border-collapse: collapse;}
 #t410 > thead > tr { background-color: #BEEFFF; color:#fff; }
 #t410 > thead > tr > th { padding: 8px; width: 150px; }
 #t410 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
-/* 퀘스트 5장 css */
-/* #d410q2 {overflow: scroll;}
-#t410q5 {margin: 0 auto; text-align: center;}
-#t410q5 {border-collapse: collapse;}
-#t410q5 > thead > tr { background-color: #BEEFFF; color:#fff; }
-#t410q5 > thead > tr > th { padding: 8px; width: 150px; }
-#t410q5 > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
