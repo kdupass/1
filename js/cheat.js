@@ -20,11 +20,11 @@ $(document).ready(function() {
       }
     });
 <!-- 검색 기능-->
-<!-- 첫페이지 로딩을 최소화 하기 위하여 keyup이 아닌 keypress로 설정 -->
+<!-- 첫페이지 로딩을 최소화 하기 위하여 click으로 설정 -->
     $("#cheat-table > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
     $("#tip1").hide();
     $("#Class1").click(function() {
-      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").show();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
@@ -33,7 +33,7 @@ $(document).ready(function() {
         $(temp).parent().show();
     });
     $("#Class2").click(function() {
-      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
@@ -42,7 +42,7 @@ $(document).ready(function() {
         $(temp).parent().show();
     });
     $("#Class3").click(function() {
-      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
@@ -51,7 +51,7 @@ $(document).ready(function() {
         $(temp).parent().show();
     });
     $("#Class4").click(function() {
-      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
@@ -60,7 +60,7 @@ $(document).ready(function() {
         $(temp).parent().show();
     });
     $("#Class5").click(function() {
-      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
@@ -69,7 +69,7 @@ $(document).ready(function() {
         $(temp).parent().show();
     });
     $("#Class6").click(function() {
-      $("#cheat-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
+      $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
