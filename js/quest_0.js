@@ -46,7 +46,6 @@ function proc2(result){
 $(document).ready(function() {
     $.ajax({
       url: './json/q1.json',
-      async:false,
       success : function (result) {
         proc2(result);
       }
