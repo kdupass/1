@@ -40,4 +40,12 @@ $(document).ready(function() {
 
         $(tempq410).parent().show();
     });
+    $("#ck410q3").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+        var a = $(this).val();
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+
+        $(tempq410).parent().show();
+    });
 });
