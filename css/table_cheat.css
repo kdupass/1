@@ -3,7 +3,7 @@ body{text-align:center;}
 #home {float:left;}
 #input-form {width:50%; clear:left;}
 #ct {width:70%; clear:left;}
-#tip1 {width:450px; float:right; border: 1px solid gray;}
+#tip1 {width:500px; float:right; border: 1px solid gray;}
 #cheat-table {margin: 0 auto; float:left; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
 #cheat-table {border-collapse: collapse;}
