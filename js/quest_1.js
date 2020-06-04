@@ -11,7 +11,6 @@ function proc410q4(result){
       q4 += '<td>' + item.cid + '</td>'
       q4 += '<td>' + item.job + '</td></tr>';
       $("#t410").append(q4);
-    };
   });
 };
 // json 파일 불러오기
@@ -22,7 +21,6 @@ $(document).ready(function() {
         proc410q4(result);
       }
     });
-});
 <!-- 검색 기능-->
 <!-- 첫페이지 로딩을 최소화 하기 위하여 click으로 설정 -->
     $("#t410 > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
