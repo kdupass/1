@@ -76,4 +76,52 @@ $(document).ready(function() {
 
             $(tempjob).parent().show();
         });
+        $("#ckjob4").click(function() {
+          $("#job1 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+            var k = $(this).val();
+            $("#job1 > tbody > tr").hide();
+            var tempjob = $("#job1 > tbody > tr > td:nth-child(6n+1):contains('" + k + "')");
+
+            $(tempjob).parent().show();
+        });
+        $("#ckjob5").click(function() {
+          $("#job1 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+            var k = $(this).val();
+            $("#job1 > tbody > tr").hide();
+            var tempjob = $("#job1 > tbody > tr > td:nth-child(6n+1):contains('" + k + "')");
+
+            $(tempjob).parent().show();
+        });
+        $("#ckjob6").click(function() {
+          $("#job1 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+            var k = $(this).val();
+            $("#job1 > tbody > tr").hide();
+            var tempjob = $("#job1 > tbody > tr > td:nth-child(6n+1):contains('" + k + "')");
+
+            $(tempjob).parent().show();
+        });
+        $("#ckjob7").click(function() {
+          $("#job1 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+            var k = $(this).val();
+            $("#job1 > tbody > tr").hide();
+            var tempjob = $("#job1 > tbody > tr > td:nth-child(6n+1):contains('" + k + "')");
+
+            $(tempjob).parent().show();
+        });
+        $("#ckjob8").click(function() {
+          $("#job1 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+            var k = $(this).val();
+            $("#job1 > tbody > tr").hide();
+            var tempjob = $("#job1 > tbody > tr > td:nth-child(6n+1):contains('" + k + "')");
+
+            $(tempjob).parent().show();
+        });
+        $("#ckjob9").click(function() {
+          $("#job1 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+            var k = $(this).val();
+            $("#job1 > tbody > tr").hide();
+            var tempjob = $("#job1 > tbody > tr > td:nth-child(6n+1):contains('" + k + "')");
+
+            $(tempjob).parent().show();
+        });
     });
