@@ -9,4 +9,4 @@ body{text-align:center;}
 #cheat-table {border-collapse: collapse;}
 #cheat-table > thead > tr { background-color: #333; color:#fff; }
 #cheat-table > thead > tr > th { padding: 8px; width: 150px; }
-#cheat-table > tbody > tr > td { font-size:10px; border-bottom: 1px solid gray; padding:8px; }
+#cheat-table > tbody > tr > td { font-size:11px; border-bottom: 1px solid gray; padding:8px; }
