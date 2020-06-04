@@ -3,8 +3,7 @@ function proc410q4(result){
 
   $.each(result, function (index, item) {
 // tbody에 출력
-    var q4 = '<tr><td>' +item.Part + '</td>';
-      q4 += '<td>'+item.area +'</td>';
+    var q4 = '<tr><td>'+item.area +'</td>';
       q4 += '<td>' + item.pquest + '</td>';
       q4 += '<td>' + item.pid + '</td>';
       q4 += '<td>' + item.cquest + '</td>';
@@ -28,7 +27,7 @@ $(document).ready(function() {
       $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
         $("#t410 > tbody > tr").hide();
-        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(6n+1):contains('" + a + "')");
 
         $(tempq410).parent().show();
     });
@@ -36,7 +35,7 @@ $(document).ready(function() {
       $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
         $("#t410 > tbody > tr").hide();
-        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(6n+1):contains('" + a + "')");
 
         $(tempq410).parent().show();
     });
@@ -44,7 +43,7 @@ $(document).ready(function() {
       $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
         $("#t410 > tbody > tr").hide();
-        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(6n+1):contains('" + a + "')");
 
         $(tempq410).parent().show();
     });
