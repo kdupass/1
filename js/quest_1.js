@@ -10,7 +10,7 @@ function proc410q4(result){
       q4 += '<td>' + item.cquest + '</td>';
       q4 += '<td>' + item.cid + '</td>'
       q4 += '<td>' + item.job + '</td></tr>';
-      $("#t1120").append(q4);
+      $("#t410").append(q4);
   });
 };
 // json 파일 불러오기
@@ -23,62 +23,62 @@ $(document).ready(function() {
     });
 <!-- 검색 기능-->
 <!-- 첫페이지 로딩을 최소화 하기 위하여 click으로 설정 -->
-    $("#t1120 > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
-    $("#ck1120q1").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#t410 > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
+    $("#ck410q1").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
-    $("#ck1120q2").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#ck410q2").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
-    $("#ck1120q3").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#ck410q3").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
-    $("#ck1120q4").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#ck410q4").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
-    $("#ck1120q5").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#ck410q5").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
-    $("#ck1120q6").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#cck410q6").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
-    $("#ck1120q7").click(function() {
-      $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
+    $("#ck410q7").click(function() {
+      $("#t410 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var a = $(this).val();
-        $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        $("#t410 > tbody > tr").hide();
+        var tempq410 = $("#t410 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
 
-        $(tempq1120).parent().show();
+        $(tempq410).parent().show();
     });
 });
 
@@ -113,79 +113,79 @@ $(document).ready(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
         var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q2").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q3").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q4").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q5").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q6").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q7").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q8").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q9").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
     $("#ck1120q0").click(function() {
       $("#t1120 > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
-        var a = $(this).val();
+        var b = $(this).val();
         $("#t1120 > tbody > tr").hide();
-        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + a + "')");
+        var tempq1120 = $("#t1120 > tbody > tr > td:nth-child(7n+1):contains('" + b + "')");
 
         $(tempq1120).parent().show();
     });
