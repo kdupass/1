@@ -6,7 +6,6 @@ div{text-align:}
 #content{width:70%;float:left;}
 #content div{display:none; height:700px; padding-top:65px;}
 /* 0장 테이블 css */
-#q1 {overflow: scroll;}
 #q0_table {margin: 0 auto; text-align: center;}
 #q0_table {border-collapse: collapse;}
 #q0_table > thead > tr { background-color: #333; color:#fff; }
