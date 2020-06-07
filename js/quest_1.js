@@ -1,5 +1,5 @@
 // 4~10 [4장] 퀘스트 코드//
-function proc410q4(result){
+function proc410(result){
 
   $.each(result, function (index, item) {
 // tbody에 출력
@@ -18,7 +18,7 @@ $(document).ready(function() {
     $.ajax({
       url: './json/q4-q10.json',
       success : function (result) {
-        proc410q4(result);
+        proc410(result);
       }
     });
 <!-- 검색 기능-->
