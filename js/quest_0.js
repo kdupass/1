@@ -23,7 +23,7 @@ $(document).ready(function(result) {
     success : function (result) {
       proc1(result);
     };
-  });
+});
 });
 // 서장 퀘스트 코드 종료 //
 // 직업 1~3장 퀘스트 코드 시작
