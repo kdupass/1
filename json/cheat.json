@@ -535,7 +535,7 @@
    },
    {
       "Class":"길드연맹관련",
-      "Cheat":"/gm familycreate 帮派名 1 帮标(1个字)",
+      "Cheat":"/gm familycreate 길드이름 1 길드마크 방주ID",
       "Content":"길드 창설",
       "etc":""
    },
