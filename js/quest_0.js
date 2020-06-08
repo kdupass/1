@@ -20,7 +20,7 @@ $(document).ready(function() {
     url: './json/q0.json',
     success : function (result) {
       proc1(result);
-    };
+    }
 });
 });
 // 서장 퀘스트 코드 종료 //
