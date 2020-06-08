@@ -14,9 +14,8 @@ function proc1(result){
       $("#q0_table").append(str);
     });
   };
-
 // json 파일 불러오기
-$(document).ready(function(result) {
+$(document).ready(function() {
   $.ajax({
     url: './json/q0.json',
     success : function (result) {
