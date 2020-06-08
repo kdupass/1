@@ -23,6 +23,7 @@ $(document).ready(function() {
 <!-- 첫페이지 로딩을 최소화 하기 위하여 click으로 설정 -->
     $("#cheat-table > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
     $("#tip1").hide();
+    $("#tip4").hide();
     $("#Class1").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").show();
