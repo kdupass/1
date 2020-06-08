@@ -24,6 +24,7 @@ $(document).ready(function(result) {
       proc1(result);
     };
   });
+  $("#q0_table > tbody").show();
 });
 // 서장 퀘스트 코드 종료 //
 // 직업 1~3장 퀘스트 코드 시작
