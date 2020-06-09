@@ -35008,5 +35008,15 @@
    "name": "캐릭터 점핑 아이템-신규 서버 전용",
    "itemid": 9554075,
    "bind": "BIND_GET"
+ },
+ {
+   "name": "나비 하트",
+   "itemid": 10501270,
+   "bind": "BIND_GET"
+ },
+ {
+   "name": "나비 날개",
+   "itemid": 10501271,
+   "bind": "BIND_GET"
  }
 ]
