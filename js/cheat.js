@@ -25,11 +25,13 @@ $(document).ready(function() {
     $("#tip1").hide();
     $("#tip4").hide();
     $("#tip5").hide();
+    $("#tip6").hide();
     $("#Class1").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").show();
       $("#tip4").hide();
       $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -41,6 +43,7 @@ $(document).ready(function() {
       $("#tip1").hide();
       $("#tip4").hide();
       $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -52,6 +55,7 @@ $(document).ready(function() {
       $("#tip1").hide();
       $("#tip4").hide();
       $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -63,6 +67,7 @@ $(document).ready(function() {
       $("#tip1").hide();
       $("#tip4").show();
       $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -74,6 +79,7 @@ $(document).ready(function() {
       $("#tip1").hide();
       $("#tip4").hide();
       $("#tip5").show();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -85,6 +91,7 @@ $(document).ready(function() {
       $("#tip1").hide();
       $("#tip4").hide();
       $("#tip5").hide();
+      $("#tip6").show();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
