@@ -5,7 +5,7 @@ function proc(result){
     <!-- tbody에 출력 -->
 
     var house = '<tr><td>'+item.LandID+'</td>';
-      house += '<td>' + item.SoltID + '</td>';
+      house += '<td>' + item.SlotID + '</td>';
       house += '<td>' + item.MapID + '</td>';
       house += '<td>' + item.Area + '</td></tr>';
       $("#slot-table").append(house);
@@ -26,7 +26,7 @@ $(document).ready(function() {
       $("#slot-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
         var k = $(this).val();
         $("#slot-table > tbody > tr").hide();
-        var temp = $("#slot-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
+        var temp = $("#slot-table > tbody > tr > td:nth-child(4n+4):contains('" + k + "')");
 
         $(temp).parent().show();
     });
