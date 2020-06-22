@@ -1,6 +1,6 @@
 #container {width: 960px; margin: 0 auto;}
 #container #input-form {text-align: center;}
-#equipdb-table {margin: 0 auto; text-align: center;}
+#slot-table {margin: 0 auto; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
 #content div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
 #tip {width:350px; float:right; border: 1px solid gray;}
