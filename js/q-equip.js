@@ -22,4 +22,5 @@ $(document).ready(function() {
         proc(result);
       }
     });
+    $("#q-equip-table > tbody").show();
 });
