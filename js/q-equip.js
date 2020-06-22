@@ -5,8 +5,8 @@ function proc(result){
     <!-- tbody에 출력 -->
 
     var q-equip = '<tr><td>'+item.type+'</td>';
-      q-equip += '<td>' + item.q-id + '</td>';
-      q-equip += '<td>' + item.q-name + '</td>';
+      q-equip += '<td>' + item.qid + '</td>';
+      q-equip += '<td>' + item.qname + '</td>';
       q-equip += '<td>' + item.level + '</td>';
       q-equip += '<td>' + item.rating + '</td>';
       q-equip += '<td>' + item.bind + '</td>';
