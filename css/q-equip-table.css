@@ -1,3 +1,4 @@
+#container {width: 960px; margin: 0 auto;}
 #q-equip-table {margin: 0 auto; text-align: center;}
 #q-equip-table {border-collapse: collapse;}
 #q-equip-table > thead > tr { background-color: #333; color:#fff; }
