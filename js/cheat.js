@@ -23,9 +23,15 @@ $(document).ready(function() {
 <!-- 첫페이지 로딩을 최소화 하기 위하여 click으로 설정 -->
     $("#cheat-table > tbody").hide();  <!-- 첫페이지 DB 로딩 시간 절약을 위하여 숨김 처리 -->
     $("#tip1").hide();
+    $("#tip4").hide();
+    $("#tip5").hide();
+    $("#tip6").hide();
     $("#Class1").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").show();
+      $("#tip4").hide();
+      $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -35,6 +41,9 @@ $(document).ready(function() {
     $("#Class2").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
+      $("#tip4").hide();
+      $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -44,6 +53,9 @@ $(document).ready(function() {
     $("#Class3").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
+      $("#tip4").hide();
+      $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -53,6 +65,9 @@ $(document).ready(function() {
     $("#Class4").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
+      $("#tip4").show();
+      $("#tip5").hide();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -62,6 +77,9 @@ $(document).ready(function() {
     $("#Class5").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
+      $("#tip4").hide();
+      $("#tip5").show();
+      $("#tip6").hide();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
@@ -71,6 +89,9 @@ $(document).ready(function() {
     $("#Class6").click(function() {
       $("#cheat-table > tbody").show(); <!-- 라디오버튼 선택 시 DB 노출 -->
       $("#tip1").hide();
+      $("#tip4").hide();
+      $("#tip5").hide();
+      $("#tip6").show();
         var k = $(this).val();
         $("#cheat-table > tbody > tr").hide();
         var temp = $("#cheat-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");

@@ -57,10 +57,236 @@
 </TABLE>
 </div>
 <div id=tip1>
-  <pre>화폐
+  <pre><b>화폐</b>
   0 거래은량 / 1 은량 / 2 전표 / 3 마일리지 / 4 천상폐 / 5 탕검폐
   6 승부령 / 7 논검폐 / 8 의협도 / 9 천괴폐 / 11 항해폐 / 12 원목
-  13 신백 / 14 종사령 / 15 청매령</pre>
+  13 신백 / 14 종사령 / 15 청매령 / 16 첩혈-천심령 / 17 무도-천심령
+  18 연기지서
+
+  <b>맵 ID</b>
+  10001 구화 / 10002 동월 / 10003 형호
+  10004 연운 / 10005 파촉 / 10006 운전
+  10007 양주 / 10009 진천 / 10010 항주
+  10011 강남 / 10012 개봉 / 10013 서해
+  10015 수라성 / 10016 일대종사 / 10020 극락도
+  10021 해하주 / 10031 이화도 / 10032 태실산
+  10034 소림</pre>
+
+  <p></p>
+  <pre><b>잠재속성 치트키 사용법</b>
+    100x0yz
+    x = 속성값 / y = 잠재등급(1~8) / z = 일반(1), 고급(2)
+
+    ex) 2줄옵 천수8등급 / 진황 11등급
+    /gm setequipaddi [Bag] 10012082 10025062 </pre>
+  <table>
+  <thead>
+    <tr>
+      <th class="잠재속성 테이블-cell">잠재속성 테이블</th>
+      <th class="-cell"></th>
+      <th class="-cell"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="firstRow">
+      <td class="잠재속성 테이블-cell">이름</td>
+      <td class="-cell">증가 속성</td>
+      <td class="-cell">x값</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">만력</td>
+      <td class="-cell">힘</td>
+      <td class="-cell">1</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">익기</td>
+      <td class="-cell">기력</td>
+      <td class="-cell">2</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">양수</td>
+      <td class="-cell">생명</td>
+      <td class="-cell">3</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">혜관</td>
+      <td class="-cell">통찰</td>
+      <td class="-cell">4</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">영준</td>
+      <td class="-cell">집중</td>
+      <td class="-cell">5</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">천타</td>
+      <td class="-cell">외공공격</td>
+      <td class="-cell">6</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">도해</td>
+      <td class="-cell">내공공격</td>
+      <td class="-cell">7</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">함봉</td>
+      <td class="-cell">외공방어</td>
+      <td class="-cell">8</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">축뢰</td>
+      <td class="-cell">내공방어</td>
+      <td class="-cell">9</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">후덕</td>
+      <td class="-cell">최대체력</td>
+      <td class="-cell">10</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">광식</td>
+      <td class="-cell">최대내력</td>
+      <td class="-cell">11</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">천수</td>
+      <td class="-cell">명중</td>
+      <td class="-cell">12</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">순거</td>
+      <td class="-cell">호신</td>
+      <td class="-cell">13</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">초예</td>
+      <td class="-cell">치명타율</td>
+      <td class="-cell">14</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">취신</td>
+      <td class="-cell">치명피해</td>
+      <td class="-cell">15</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">유전</td>
+      <td class="-cell">치명회피</td>
+      <td class="-cell">16</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">해납</td>
+      <td class="-cell">모든속성</td>
+      <td class="-cell">17</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">항왕</td>
+      <td class="-cell">힘, 생명</td>
+      <td class="-cell">18</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">무성</td>
+      <td class="-cell">힘, 통찰</td>
+      <td class="-cell">19</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">상산</td>
+      <td class="-cell">힘, 집중</td>
+      <td class="-cell">20</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">황건</td>
+      <td class="-cell">기력, 생명</td>
+      <td class="-cell">21</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">태공</td>
+      <td class="-cell">기력, 통찰</td>
+      <td class="-cell">22</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">역수</td>
+      <td class="-cell">기력, 집중</td>
+      <td class="-cell">23</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">제갈</td>
+      <td class="-cell">통찰, 집중</td>
+      <td class="-cell">24</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">진황</td>
+      <td class="-cell">외공공격(영웅)</td>
+      <td class="-cell">25</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">회남</td>
+      <td class="-cell">내공공격(영웅)</td>
+      <td class="-cell">26</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">청련</td>
+      <td class="-cell">치명타율(영웅)</td>
+      <td class="-cell">27</td>
+    </tr>
+    <tr>
+      <td class="잠재속성 테이블-cell">우공</td>
+      <td class="-cell">치명회피(영웅)</td>
+      <td class="-cell">28</td>
+    </tr>
+    <tr class="lastRow">
+      <td class="잠재속성 테이블-cell">팽조</td>
+      <td class="-cell">최대체력(영웅)</td>
+      <td class="-cell">29</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div id=tip4>
+  <pre><b>맹회,연맹,방파</b>
+    맹회 : 1-제왕주 / 2-한강성 / 3-수룡음 / 4-만리>
+
+    <b>거점 ID</b>
+     1 - 제왕주 총타 /   2~6 - 제왕주 분타
+     7 - 한강성 총타 /  8~12 - 한강성 분타
+    13 - 수룡음 총타 / 14~18 - 수룡음 분타
+    19 - 만리살 총타 / 20~24 - 만리살 분타
+
+    <b>거점 건축</b>
+    총타/분타 건물 위치에 따라 번호가 지정
+    제왕주 : 1~12 (1은 병마감 위치로 추정)
+    나머지 : 13~24 (13은 병마감 위치로 추정)
+  </pre>
+</div>
+<div id=tip5>
+  <pre><b>가원</b>
+    슬롯 번호는 아래 링크 이동하여 확인
+    <a class="btn btn-outline-primary" href="https://kdupass.github.io/sky/house.html">토지 검색</a>
+
+    <b>집문서</b>
+    1001 일택(소) / 1002 수축(소) / 1003 심재(소)
+    1004 조영거(중) / 1005 유화정(중) / 1006 영청원(중)
+    1007 인즐양홍(대) / 1008 방수사휘(대)/ 1009 일지춘경(대)
+    1010 운산만전(대) / 1011 난대효몽(대)
+    1012 금원(소) / 1013 풍월각(중) / 쾌설시청(대)
+
+    <b>풍수도</b>
+    1 무릉도원 / 2 금상첨화 / 3 만사형통
+    4 운수대통 / 5 자수성가 / 6 동가홍
+  </pre>
+</div>
+<div id=tip6>
+  <pre><b>섬 ID</b>
+  10052 강양항 / 10053 대영도 / 10054 옥이도
+  10055 망양도 / 10056 강양항 / 10057 천주항
+  10058 영록도 / 10059 유령도 / 10060 보광도
+  10061 낭환도 / 10062 창랑도 / 10064 전당항
+  10065 천애염전
+
+  <b>협객도 건물</b>
+  1030 별원 / 1031 조각상 / 1033 화원
+  1034 농사 / 1035 벌목장 / 1036 선거
+  1037 공방 / 1038 등대
+</pre>
 </div>
 </div>
 </BODY>

@@ -217,9 +217,9 @@
    },
    {
       "Class":"캐릭터",
-      "Cheat":"/gm setequipaddi [Bag] [addiID] [addiID]",
+      "Cheat":"/gm setequipaddi [Bag] [첫줄잠재] [둘째줄잠재]",
       "Content":"장비 잠재속성 획득",
-      "etc":"가방 좌상단 첫 번째 칸부터 0으로 시작"
+      "etc":"가방 좌상단 첫 번째 칸부터 0으로 시작 / 상세설명 우측"
    },
    {
       "Class":"캐릭터",
@@ -535,7 +535,7 @@
    },
    {
       "Class":"길드연맹관련",
-      "Cheat":"/gm familycreate 帮派名 1 帮标(1个字)",
+      "Cheat":"/gm familycreate 길드이름 1 길드마크 방주ID",
       "Content":"길드 창설",
       "etc":""
    },

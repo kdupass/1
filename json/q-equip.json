@@ -1,0 +1,254 @@
+[
+   {
+      "type":"주무기",
+      "qid":3,
+      "qname":"죽림전투",
+      "level":1,
+      "rating":5,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":5416,
+      "qname":"강호만상",
+      "level":11,
+      "rating":18,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":7210,
+      "qname":"주신곡 제낙매",
+      "level":21,
+      "rating":28,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":9004,
+      "qname":"청영방 덕화루",
+      "level":31,
+      "rating":40,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":10802,
+      "qname":"한강성의 정보",
+      "level":41,
+      "rating":50,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":10805,
+      "qname":"끊임없는 공격",
+      "level":41,
+      "rating":50,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"주무기",
+      "qid":12718,
+      "qname":"악당 소탕",
+      "level":51,
+      "rating":65,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":12719,
+      "qname":"공작산장",
+      "level":51,
+      "rating":65,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"주무기",
+      "qid":14403,
+      "qname":"드러나는 진실",
+      "level":61,
+      "rating":75,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":14404,
+      "qname":"분주한 발걸음",
+      "level":61,
+      "rating":75,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"주무기",
+      "qid":19804,
+      "qname":"길 위의 자객",
+      "level":70,
+      "rating":85,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":19803,
+      "qname":"강가의 마을",
+      "level":70,
+      "rating":85,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"주무기",
+      "qid":2005,
+      "qname":"혈전의 비밀",
+      "level":81,
+      "rating":95,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"주무기",
+      "qid":2010,
+      "qname":"반역의 최후",
+      "level":81,
+      "rating":100,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"보조무기",
+      "qid":6,
+      "qname":"흉수추격",
+      "level":1,
+      "rating":5,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":5443,
+      "qname":"반룡촌 악적",
+      "level":11,
+      "rating":18,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":7450,
+      "qname":"가파른 비탈길",
+      "level":21,
+      "rating":28,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":9016,
+      "qname":"장진각",
+      "level":31,
+      "rating":40,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":10814,
+      "qname":"밀서의 의미",
+      "level":41,
+      "rating":50,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":10828,
+      "qname":"때를 기다리며",
+      "level":41,
+      "rating":50,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"보조무기",
+      "qid":12610,
+      "qname":"산중의 도적",
+      "level":51,
+      "rating":65,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":12676,
+      "qname":"상단의 화물",
+      "level":51,
+      "rating":65,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"보조무기",
+      "qid":14414,
+      "qname":"무림의 대비부",
+      "level":61,
+      "rating":75,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":14415,
+      "qname":"미인 친구",
+      "level":61,
+      "rating":75,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"보조무기",
+      "qid":19823,
+      "qname":"상당 당주",
+      "level":70,
+      "rating":85,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":19824,
+      "qname":"산으로 가는 길",
+      "level":70,
+      "rating":85,
+      "bind":"귀속",
+      "etc":"PVP"
+   },
+   {
+      "type":"보조무기",
+      "qid":2065,
+      "qname":"정보의 대가",
+      "level":81,
+      "rating":95,
+      "bind":"귀속",
+      "etc":"PVE"
+   },
+   {
+      "type":"보조무기",
+      "qid":2070,
+      "qname":"정보 요구",
+      "level":81,
+      "rating":100,
+      "bind":"귀속",
+      "etc":"PVP"
+   }
+]
