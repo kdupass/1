@@ -14035,28 +14035,28 @@
    "job": "모두"
  },
  {
-   "name": "무도-양룡현",
+   "name": "무도-비룡현",
    "itemid": 6009190,
    "bind": "BIND_USE",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡현",
+   "name": "천화-비룡현",
    "itemid": 6009196,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡현",
+   "name": "금강-비룡현",
    "itemid": 6009197,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡현",
+   "name": "택란-비룡현",
    "itemid": 6009198,
    "bind": "BIND_GET",
    "level": 90,
@@ -15085,28 +15085,28 @@
    "job": "모두"
  },
  {
-   "name": "무도-양룡 목걸이",
+   "name": "무도-비룡 목걸이",
    "itemid": 6010190,
    "bind": "BIND_USE",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡 목걸이",
+   "name": "천화-비룡 목걸이",
    "itemid": 6010196,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡 목걸이",
+   "name": "금강-비룡 목걸이",
    "itemid": 6010197,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡 목걸이",
+   "name": "택란-비룡 목걸이",
    "itemid": 6010198,
    "bind": "BIND_GET",
    "level": 90,
@@ -16135,28 +16135,28 @@
    "job": "모두"
  },
  {
-   "name": "무도-양룡 팔찌",
+   "name": "무도-비룡 팔찌",
    "itemid": 6014190,
    "bind": "BIND_USE",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡 팔찌",
+   "name": "천화-비룡 팔찌",
    "itemid": 6014196,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡 팔찌",
+   "name": "금강-비룡 팔찌",
    "itemid": 6014197,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡 팔찌",
+   "name": "택란-비룡 팔찌",
    "itemid": 6014198,
    "bind": "BIND_GET",
    "level": 90,
@@ -18165,28 +18165,28 @@
    "job": "모두"
  },
  {
-   "name": "무도-양룡 반지",
+   "name": "무도-비룡 반지",
    "itemid": 6016190,
    "bind": "BIND_USE",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡 반지",
+   "name": "천화-비룡 반지",
    "itemid": 6016196,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡 반지",
+   "name": "금강-비룡 반지",
    "itemid": 6016197,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡 반지",
+   "name": "택란-비룡 반지",
    "itemid": 6016198,
    "bind": "BIND_GET",
    "level": 90,
@@ -55643,84 +55643,84 @@
    "job": "모두"
  },
  {
-   "name": "천화-양룡현",
+   "name": "천화-비룡현",
    "itemid": 9000065,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡현",
+   "name": "금강-비룡현",
    "itemid": 9000066,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡현",
+   "name": "택란-비룡현",
    "itemid": 9000067,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡 반지",
+   "name": "천화-비룡 반지",
    "itemid": 9000068,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡 반지",
+   "name": "금강-비룡 반지",
    "itemid": 9000069,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡 반지",
+   "name": "택란-비룡 반지",
    "itemid": 9000070,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡 팔찌",
+   "name": "천화-비룡 팔찌",
    "itemid": 9000071,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡 팔찌",
+   "name": "금강-비룡 팔찌",
    "itemid": 9000072,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡 팔찌",
+   "name": "택란-비룡 팔찌",
    "itemid": 9000073,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "천화-양룡 목걸이",
+   "name": "천화-비룡 목걸이",
    "itemid": 9000074,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "금강-양룡 목걸이",
+   "name": "금강-비룡 목걸이",
    "itemid": 9000075,
    "bind": "BIND_GET",
    "level": 90,
    "job": "모두"
  },
  {
-   "name": "택란-양룡 목걸이",
+   "name": "택란-비룡 목걸이",
    "itemid": 9000076,
    "bind": "BIND_GET",
    "level": 90,
