@@ -15,11 +15,13 @@ function proc(result){
   });
 };
 <!-- json 파일 불러오기-->
-$(document).onload(function() {
+$(document).ready(function() {
     $.ajax({
       url: './json/q-equip.json',
       success : function (result) {
         proc(result);
       }
     });
+    $("#container").onload(function() {
+      $("#cheat-table > tbody").show();
 });
