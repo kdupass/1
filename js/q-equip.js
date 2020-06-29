@@ -15,7 +15,7 @@ function proc(result){
   });
 };
 <!-- json 파일 불러오기-->
-$(document).ready(function() {
+$(document).onload(function() {
     $.ajax({
       url: './json/q-equip.json',
       success : function (result) {
