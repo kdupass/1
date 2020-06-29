@@ -16,11 +16,12 @@ function proc(result){
 };
 <!-- json 파일 불러오기-->
 $(document).ready(function() {
+  $(#container).load(function() {
     $.ajax({
-      async: false,
       url: './json/q-equip.json',
       success : function (result) {
         proc(result);
       }
     });
+  });
 });
