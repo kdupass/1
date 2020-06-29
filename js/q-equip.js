@@ -22,6 +22,6 @@ $(document).ready(function() {
         proc(result);
       }
     });
-    $("#container").onload(function() {
+    $("#container").load(function() {
       $("#cheat-table > tbody").show();
 });
