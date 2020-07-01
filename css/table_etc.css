@@ -1,9 +1,10 @@
 #container {width: 960px; margin: 0 auto;}
 #container #input-form {text-align: center;}
-#etcdb-table {margin: 0 auto; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
-
-#etcdb-table {border-collapse: collapse;}
+#content {width:800px; clear:left;}
+#hantest {float:right;}
+#etcdb-table {margin: 0 auto; text-align: center;}
+#etcdb-table {border-collapse: collapse; float:left;}
 #etcdb-table > thead > tr { background-color: #333; color:#fff; }
 #etcdb-table > thead > tr > th { padding: 8px; width: 150px; }
 #etcdb-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
