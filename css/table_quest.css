@@ -1,7 +1,7 @@
 *{ font-size:11pt; color:#999;}
 body{ text-align:center;}
 div{text-align:}
-#all{width:830px;}
+#all{width:1000px;}
 #choice{width:30%;float:left;}
 #content{width:70%;float:left;}
 #content div{display:none; height:700px; padding-top:65px;}
