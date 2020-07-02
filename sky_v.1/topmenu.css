@@ -1,13 +1,13 @@
 body {margin: 0px; padding: 0px; text-align:center;}
-.warp {width: 850px; background-color: #FFF4BA; margin: 0px auto 0px auto;}
-header {background-color: #C6C2B6; width: 850px; height: 80px; padding: 0.1px 0px 0px 0px;}
-article {width: 850px; background-color: #FFF4BA; float: left;}
+.warp {width: 1000px; background-color: #FFF4BA; margin: 0px auto 0px auto;}
+header {background-color: #C6C2B6; width: 1000px; height: 80px; padding: 0.1px 0px 0px 0px;}
+article {width: 1000px; background-color: #FFF4BA; float: left;}
 /* aside {width: 850px; background-color: #F7DEF9; float: left;} */
-footer {float: left; width: 850px; height: 30px; padding: 20px 0px 0px 0px; background-color: #2D2D2D; font-size: 12px; color: white;}
+footer {float: left; width: 1000px; height: 30px; padding: 20px 0px 0px 0px; background-color: #2D2D2D; font-size: 12px; color: white;}
 
 #topMenu {
             height: 30px;
-            width: 850px;       /* [변경] 하위 메뉴와 동일하게 맞춤 */
+            width: 1000px;       /* [변경] 하위 메뉴와 동일하게 맞춤 */
             position: relative;
 
 
@@ -59,7 +59,7 @@ footer {float: left; width: 850px; height: 30px; padding: 20px 0px 0px 0px; back
         -webkit-transition: height .2s;
         -moz-transition: height .2s;
         -o-transition: height .2s;
-        width: 850px;
+        width: 1000px;
         left: 0;
 
 
