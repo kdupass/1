@@ -1,7 +1,7 @@
-#container {width: 830px; margin: 0 auto;}
+#container {width: 1000px; margin: 0 auto;}
 #container #input-form {text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
-#content {width:800px; clear:left;}
+#content {width:950px; clear:left;}
 #hantest {float:right;}
 #etcdb-table {margin: 0 auto; text-align: center;}
 #etcdb-table {border-collapse: collapse; float:left;}
