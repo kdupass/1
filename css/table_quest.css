@@ -2,8 +2,8 @@
 body{ text-align:center;}
 div{text-align:}
 #all{width:1000px;}
-#choice{width:30%;float:left;}
-#content{width:70%;float:left;}
+#choice{width:20%;float:left;}
+#content{width:80%;float:left;}
 #content div{display:none; height:700px; padding-top:65px;}
 /* 0장 테이블 css */
 #q0_table {margin: 0 auto; text-align: center;}
