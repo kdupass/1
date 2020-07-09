@@ -1,0 +1,235 @@
+[{
+		"name": "일반 엽궁",
+		"itemid": 4021001,
+		"level": 31,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "궁-왕옥",
+		"itemid": 4021002,
+		"level": 41,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "궁-고사",
+		"itemid": 4021003,
+		"level": 61,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "궁-불주",
+		"itemid": 4021004,
+		"level": 80,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "하급 화살통",
+		"itemid": 4022001,
+		"level": 31,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "중급 화살통 왕옥",
+		"itemid": 4022002,
+		"level": 41,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "상급 화살통 고사",
+		"itemid": 4022003,
+		"level": 61,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "최상급 화살통 불주",
+		"itemid": 4022004,
+		"level": 86,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "하급 화살통",
+		"itemid": 4022005,
+		"level": 31,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "중급 화살통 왕옥",
+		"itemid": 4022006,
+		"level": 41,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "상급 화살통 고사",
+		"itemid": 4022007,
+		"level": 61,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "최상급 화살통 불주",
+		"itemid": 4022008,
+		"level": 86,
+		"bind": "BIND_USE"
+	},
+	{
+		"name": "녹기현",
+		"itemid": 4023001,
+		"level": 1,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "요청풍",
+		"itemid": 4023002,
+		"level": 1,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "난읍로",
+		"itemid": 4023003,
+		"level": 1,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "횡취위",
+		"itemid": 4024001,
+		"level": 1,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "청자고",
+		"itemid": 4024002,
+		"level": 1,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "옥설로",
+		"itemid": 4024003,
+		"level": 1,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "죽간",
+		"itemid": 4024004,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "수대간",
+		"itemid": 4024005,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "낚시도구-연조",
+		"itemid": 4024006,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-청계",
+		"itemid": 4024007,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-한강설",
+		"itemid": 4024008,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "붕어용 미끼",
+		"itemid": 4024010,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "낚시도구-연조",
+		"itemid": 4024011,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-청계",
+		"itemid": 4024012,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-한강설",
+		"itemid": 4024013,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "가물치용 미끼",
+		"itemid": 4024014,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "쏘가리용 미끼",
+		"itemid": 4024015,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "물뱀용 미끼",
+		"itemid": 4024016,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "우럭용 미끼",
+		"itemid": 4024017,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "붕장어용 미끼",
+		"itemid": 4024018,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "실고기용 미끼",
+		"itemid": 4024019,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "도미용 미끼",
+		"itemid": 4024020,
+		"level": 30,
+		"bind": "BIND_NONE"
+	},
+	{
+		"name": "대회용 미끼",
+		"itemid": 4024021,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-연조",
+		"itemid": 4024022,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-청계",
+		"itemid": 4024023,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "낚시도구-한강설",
+		"itemid": 4024024,
+		"level": 30,
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "미끼-지렁이",
+		"itemid": 4024025,
+		"level": 30,
+		"bind": "BIND_GET"
+	}
+]
