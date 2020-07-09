@@ -1,0 +1,6 @@
+#container {width: 1000px; margin: 0 auto;}
+#iden-equip-table {margin: 0 auto; text-align: center;}
+#iden-equip-table {border-collapse: collapse;}
+#iden-equip-table > thead > tr { background-color: #333; color:#fff; }
+#iden-equip-table > thead > tr > th { padding: 8px; width: 150px; }
+#iden-equip-table > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }
