@@ -6,6 +6,7 @@ function proc(result){
 
     var str = '<tr><td>'+item.name+'</td>';
       str += '<td>' + item.itemid + '</td>';
+      str += '<td>' + item.type + '</td>';
       str += '<td>' + item.bind + '</td></tr>';
       $("#etcdb-table").append(str);
   });
@@ -25,7 +26,7 @@ $(document).ready(function() {
       $("#etcdb-table > tbody").show(); <!-- 검색창 입력 시 DB 노출 -->
         var k = $(this).val();
         $("#etcdb-table > tbody > tr").hide();
-        var temp = $("#etcdb-table > tbody > tr > td:nth-child(3n+1):contains('" + k + "')");
+        var temp = $("#etcdb-table > tbody > tr > td:nth-child(4n+1):contains('" + k + "')");
 
         $(temp).parent().show();
     });
