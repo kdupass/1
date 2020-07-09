@@ -6,9 +6,9 @@ function proc(result){
 
     var str = '<tr><td>'+item.name+'</td>';
       str += '<td>' + item.itemid + '</td>';
+      str += '<td>' + item.type + '</td>';
       str += '<td>' + item.bind + '</td>';
-      str += '<td>' + item.level + '</td>';
-      str += '<td>' + item.job + '</td></tr>';
+      str += '<td>' + item.level + '</td></tr>';
       $("#equipdb-table").append(str);
   });
 };
