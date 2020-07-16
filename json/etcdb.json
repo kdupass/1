@@ -5609,37 +5609,37 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "잉어 (다듬 완료)",
+		"name": "다듬은 잉어",
 		"itemid": 2210011,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "자라 (다듬 완료)",
+		"name": "다듬은 자라",
 		"itemid": 2210012,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "새우 (다듬 완료)",
+		"name": "다듬은 민물새우",
 		"itemid": 2210013,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "게 (다듬 완료)",
+		"name": "다듬은 게",
 		"itemid": 2210014,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "해삼 (다듬 완료)",
+		"name": "다듬은 해삼",
 		"itemid": 2210015,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "전복 (다듬 완료)",
+		"name": "다듬은 전복",
 		"itemid": 2210016,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
@@ -5669,13 +5669,13 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "섬 해파리 (다듬 완료)",
+		"name": "다듬은 해파리",
 		"itemid": 2210021,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "침검지 빙어 (다듬 완료)",
+		"name": "다듬은 빙어",
 		"itemid": 2210022,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
@@ -5687,7 +5687,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "낙타봉",
+		"name": "낙타고기",
 		"itemid": 2210024,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
@@ -5759,7 +5759,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "두시",
+		"name": "된장",
 		"itemid": 2210036,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
@@ -5843,19 +5843,19 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "조기 (다듬 완료)",
+		"name": "다듬은 조기",
 		"itemid": 2210051,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "갈치 (다듬 완료)",
+		"name": "다듬은 갈치",
 		"itemid": 2210052,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "초어 (다듬 완료)",
+		"name": "다듬은 초어",
 		"itemid": 2210053,
 		"type": "음식재료",
 		"bind": "BIND_NONE"
@@ -6011,7 +6011,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "미인간",
+		"name": "오리닭볶음",
 		"itemid": 2220026,
 		"type": "음식",
 		"bind": "BIND_NONE"
@@ -6365,7 +6365,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "낙타봉구이",
+		"name": "낙타구이",
 		"itemid": 2220085,
 		"type": "음식",
 		"bind": "BIND_NONE"
@@ -6527,7 +6527,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "양고기호떡",
+		"name": "양고기국",
 		"itemid": 2220112,
 		"type": "음식",
 		"bind": "BIND_NONE"
@@ -6569,7 +6569,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "두시조기찜",
+		"name": "된장조기찜",
 		"itemid": 2220119,
 		"type": "음식",
 		"bind": "BIND_NONE"
@@ -6791,13 +6791,13 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "명옥상자",
+		"name": "고급 식자재 상자",
 		"itemid": 2220157,
 		"type": "요리사 채집용 도구 가방",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "명옥함",
+		"name": "식자재 상자",
 		"itemid": 2220158,
 		"type": "요리사 채집용 도구 가방",
 		"bind": "BIND_NONE"
@@ -9713,37 +9713,37 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "심검 업적 선물-수",
+		"name": "심검 업적 선물-1단",
 		"itemid": 10530020,
 		"type": "",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "심검 업적 선물-어",
+		"name": "심검 업적 선물-2단",
 		"itemid": 10530021,
 		"type": "",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "심검 업적 선물-입",
+		"name": "심검 업적 선물-3단",
 		"itemid": 10530022,
 		"type": "",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "심검 업적 선물-진",
+		"name": "심검 업적 선물-4단",
 		"itemid": 10530023,
 		"type": "",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "심검 업적 선물-파",
+		"name": "심검 업적 선물-5단",
 		"itemid": 10530024,
 		"type": "",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "심검 업적 선물-귀",
+		"name": "심검 업적 선물-6단",
 		"itemid": 10530025,
 		"type": "",
 		"bind": "BIND_GET"
@@ -15059,19 +15059,19 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "12루장",
+		"name": "백효생전-12루",
 		"itemid": 1081501,
 		"type": "신병재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "5성지장",
+		"name": "백효생전-5성",
 		"itemid": 1081502,
 		"type": "신병재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "병기지장",
+		"name": "백효생전-병기",
 		"itemid": 1081503,
 		"type": "신병재료",
 		"bind": "BIND_NONE"
@@ -17357,13 +17357,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "문심지백",
+		"name": "기혈 강화재료",
 		"itemid": 1083911,
 		"type": "규혈 기해 재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "석심지인",
+		"name": "기혈 돌파재료",
 		"itemid": 1083921,
 		"type": "규혈 기해 재료",
 		"bind": "BIND_NONE"
