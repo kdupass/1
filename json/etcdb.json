@@ -8267,7 +8267,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "문심지백 x10",
+		"name": "기혈 강화재료 x10",
 		"itemid": 1801055,
 		"type": "사해진기각 전용 선물",
 		"bind": "BIND_GET"
@@ -17501,13 +17501,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "문심지백 x50",
+		"name": "기혈 강화재료 x50",
 		"itemid": 1083934,
 		"type": "선물",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "문심지백 x50",
+		"name": "기혈 강화재료 x50",
 		"itemid": 1083935,
 		"type": "경매 개방",
 		"bind": "BIND_GET"
