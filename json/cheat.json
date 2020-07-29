@@ -838,5 +838,35 @@
       "Cheat":"/gm shipaddfame ship_rid fame",
       "Content":"모름",
       "etc":"rid: 선박 아이디"
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_duanwei [x] [y]",
+      "Content":"논검 등급 조정",
+      "etc":"x: 단수 , y: 점수"
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_yusai_win_count [점수]",
+      "Content":"대회 예선 명령어",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm set_fusai_win_count [점수]",
+      "Content":"대회 본선 명령어",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm add_yusai_win_count [점수]",
+      "Content":"대회 본선 명령어",
+      "etc":""
+   },
+   {
+      "Class":"논검 관련",
+      "Cheat":"/gm add_fusai_win_count [점수]",
+      "Content":"대회 본선 명령어",
+      "etc":""
    }
 ]
