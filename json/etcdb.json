@@ -2261,7 +2261,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "팔괘점",
 		"itemid": 40103001,
 		"type": "교환용 아이템",
 		"bind": "BIND_GET"
@@ -7289,7 +7289,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "만설굴",
 		"itemid": 3000188,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -15113,7 +15113,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "신백",
 		"itemid": 1082011,
 		"type": "신병재료",
 		"bind": "BIND_NONE"
@@ -15221,7 +15221,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "공작령",
 		"itemid": 1088016,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -15287,67 +15287,67 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "봉황집",
 		"itemid": 1088027,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "장봉곡",
 		"itemid": 1088028,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "쇄성루",
 		"itemid": 1088029,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "만겁해",
 		"itemid": 1088030,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "검사주",
 		"itemid": 1088031,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "발묵령",
 		"itemid": 1088032,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "무애봉",
 		"itemid": 1088033,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "비설탄",
 		"itemid": 1088034,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "구천각",
 		"itemid": 1088035,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "운무택",
 		"itemid": 1088036,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "일취헌",
 		"itemid": 1088037,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -15389,25 +15389,25 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "서버명4",
 		"itemid": 1088044,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "이화",
 		"itemid": 1088045,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "추수",
 		"itemid": 1088046,
 		"type": "칭호",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "취설",
 		"itemid": 1088047,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -15431,7 +15431,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "호광",
 		"itemid": 1088051,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -15497,7 +15497,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "서버명3",
 		"itemid": 1088062,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -15683,7 +15683,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "잠룡의 심연",
 		"itemid": 1088093,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -16079,7 +16079,7 @@
 		"bind": "BIND_USE"
 	},
 	{
-		"name": "0",
+		"name": "일대종사",
 		"itemid": 1088102,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -16361,7 +16361,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "환해화성",
 		"itemid": 1088106,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -16415,7 +16415,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "탈것",
 		"itemid": 20170000,
 		"type": "기술서",
 		"bind": "BIND_GET"
@@ -17045,13 +17045,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "청매자주",
 		"itemid": 1090233,
-		"type": "",
+		"type": "휘장",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "청매자주",
 		"itemid": 1090234,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -20759,7 +20759,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "항룡유회",
 		"itemid": 2490410,
 		"type": "점괘패 아이템",
 		"bind": "BIND_GET"
@@ -21707,7 +21707,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "일대종사",
 		"itemid": 2490568,
 		"type": "일대종사 전장 내 파티 1위 이후 추가 보상",
 		"bind": "BIND_GET"
@@ -22433,13 +22433,13 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "매혹-은하",
 		"itemid": 2490689,
 		"type": "상점 아이템",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "매혹-백야",
 		"itemid": 2490690,
 		"type": "상점 아이템",
 		"bind": "BIND_NONE"
@@ -22559,7 +22559,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "천지풍운",
 		"itemid": 2490710,
 		"type": "이름표 휘장",
 		"bind": "BIND_GET"
@@ -22589,7 +22589,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "천풍해우",
 		"itemid": 2490715,
 		"type": "칭호",
 		"bind": "BIND_GET"
@@ -22829,7 +22829,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "매혹-은하",
 		"itemid": 2490756,
 		"type": "상점 전용 선물",
 		"bind": "BIND_GET"
@@ -22865,13 +22865,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "0",
+		"name": "매혹-심해",
 		"itemid": 2490764,
 		"type": "상점 아이템",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "매혹-황옥",
 		"itemid": 2490765,
 		"type": "상점 아이템",
 		"bind": "BIND_NONE"
@@ -30053,7 +30053,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "방파 소원나무",
 		"itemid": 40101403,
 		"type": "소모품",
 		"bind": "BIND_NONE"
@@ -40439,19 +40439,19 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "하급 함정",
 		"itemid": 30102001,
 		"type": "회복약",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "중급 함정",
 		"itemid": 30102002,
 		"type": "회복약",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "상급 함정",
 		"itemid": 30102003,
 		"type": "회복약",
 		"bind": "BIND_NONE"
@@ -40727,7 +40727,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "갈색 흙쥐",
 		"itemid": 30101041,
 		"type": "갈색 흙쥐",
 		"bind": "BIND_NONE"
@@ -40973,7 +40973,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "곱슬 멧돼지",
 		"itemid": 30101131,
 		"type": "곱슬 멧돼지",
 		"bind": "BIND_NONE"
@@ -41015,7 +41015,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "공작",
 		"itemid": 30101161,
 		"type": "공작",
 		"bind": "BIND_NONE"
@@ -41039,7 +41039,7 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "0",
+		"name": "바다거북",
 		"itemid": 30101201,
 		"type": "바다거북",
 		"bind": "BIND_NONE"
