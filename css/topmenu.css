@@ -59,15 +59,15 @@ footer {float: left; width: 1300px; height: 30px; padding: 20px 0px 0px 0px; bac
         -webkit-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정 (구버전 크롬/사파리) */
         -moz-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정 (구버전 파폭) */
         -o-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정 (구버전 오페라) */
-        /* width: 1300px; */  /* 가로 드랍다운 메뉴의 넓이 */
-        /* left: 0; */ /* 가장 왼쪽으로 하위 메뉴 위치 설정 */
+        width: 1300px; /* 가로 드랍다운 메뉴의 넓이 */
+        left: 0; /* 가장 왼쪽으로 하위 메뉴 위치 설정 */
 
 
         background-color: #DDD; /* [추가] 하위 메뉴 전체에 배경색 설정 */
     }
     .submenu li {
-        /* display: inline-block; */   /* 가로로 펼쳐지도록 설정 */
-        display: none;
+      display: inline-block;   /* 가로로 펼쳐지도록 설정 */
+
 
     }
     .topMenuLi:hover .submenu {   /* 상위 메뉴에 마우스 오버한 경우 그 안의 하위 메뉴 스타일 설정 */
