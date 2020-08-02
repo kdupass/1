@@ -47421,5 +47421,17 @@
 		"itemid": 3000017,
 		"type": "방파 이벤트 물자",
 		"bind": "BIND_GET"
+	},
+	{
+		"name": "소옥 보물상자-A",
+		"itemid": 9003010,
+		"type": "상점 아이템",
+		"bind": "BIND_GET"
+	},
+	{
+		"name": "소옥 보물상자-B",
+		"itemid": 9003011,
+		"type": "상점 아이템",
+		"bind": "BIND_GET"
 	}
 ]
