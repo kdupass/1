@@ -6791,13 +6791,13 @@
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "고급 식자재 상자",
+		"name": "식자재 상자",
 		"itemid": 2220157,
 		"type": "요리사 채집용 도구 가방",
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "식자재 상자",
+		"name": "고급 식자재 상자",
 		"itemid": 2220158,
 		"type": "요리사 채집용 도구 가방",
 		"bind": "BIND_NONE"
