@@ -8267,7 +8267,7 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "기혈 강화재료 x10",
+		"name": "기해 강화재료 x10",
 		"itemid": 1801055,
 		"type": "사해진기각 전용 선물",
 		"bind": "BIND_GET"
@@ -17357,13 +17357,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "기혈 강화재료",
+		"name": "기해 강화재료",
 		"itemid": 1083911,
 		"type": "규혈 기해 재료",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "기혈 돌파재료",
+		"name": "기해 돌파재료",
 		"itemid": 1083921,
 		"type": "규혈 기해 재료",
 		"bind": "BIND_NONE"
@@ -17501,13 +17501,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "기혈 강화재료 x50",
+		"name": "기해 강화재료 x50",
 		"itemid": 1083934,
 		"type": "선물",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "기혈 강화재료 x50",
+		"name": "기해 강화재료 x50",
 		"itemid": 1083935,
 		"type": "경매 개방",
 		"bind": "BIND_GET"
@@ -23357,13 +23357,13 @@
 		"bind": "BIND_GET"
 	},
 	{
-		"name": "청화 무기(영구)",
+		"name": "청운 무기(영구)",
 		"itemid": 2490850,
 		"type": "캐시 아이템",
 		"bind": "BIND_NONE"
 	},
 	{
-		"name": "청화 무기(30일)",
+		"name": "청운 무기(30일)",
 		"itemid": 2490851,
 		"type": "캐시 아이템",
 		"bind": "BIND_NONE"
