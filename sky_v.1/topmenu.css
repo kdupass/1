@@ -1,84 +1,75 @@
-body {margin: 0px; padding: 0px; text-align:center;}
-.warp {width: 1000px; background-color: #FFF4BA; margin: 0px auto 0px auto;}
-header {background-color: #C6C2B6; width: 1000px; height: 80px; padding: 0.1px 0px 0px 0px;}
-article {width: 1000px; background-color: #FFF4BA; float: left;}
-/* aside {width: 850px; background-color: #F7DEF9; float: left;} */
-footer {float: left; width: 1000px; height: 30px; padding: 20px 0px 0px 0px; background-color: #2D2D2D; font-size: 12px; color: white;}
+#topmenu { /*전체 메뉴 스타일*/
+  list-style:none; /*불릿 없애기*/
+  height:40px;
+  width: 1300px;
+  padding:5px 1px;
+  margin:0;
+  background:#f29c74; /*배경색 지정*/
+  }
 
-#topMenu {
-            height: 30px;
-            width: 1000px;       /* [변경] 하위 메뉴와 동일하게 맞춤 */
-            position: relative;
+#topmenu li{ /*전체 메뉴의 리스트에 대한 스타일*/
+  float:left; /*메뉴를 왼쪽부터 표시한다*/
+  position:relative; /*순서대로 표시한 */
+  margin:5px 30px;
+  padding:0;
+}
 
+#topmenu li a{ /*메인 메뉴 링크의 스타 */
+  display:block; /*메뉴칸을 블록레벨로 만든다*/
+  font-family:"맑은고딕";
+  font-weight:bold; /*글자 진하게*/
+  font-size:15px; /*글자 크기를 18px로 설정*/
+  padding:7px 8px;
+  margin:0;
+  color:#fff; /*글자색 지정*/
+  margin:0;
+  text-decoration:none; /*글자의 밑줄 없애기*/
+  text-shadow:0 1px 1px rgba(0, 0, 0, 0.3); /*글자에 그림자 삽입*/
+}
 
-            background-color: #2D2D2D; /* [추가] 늘어난만큼 배경색도 보이도록 수정 */
-    }
-    #topMenu ul {           /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-    }
-    #topMenu ul li {            /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */
-        color: white;
-        background-color: #2d2d2d;
-        float: left;
-        line-height: 30px;
-        vertical-align: middle;
-        text-align: center;
-        -position: relative;
-    }
+#topmenu li:hover > a{ /*메인메뉴 링크에 마우스 포인터를 올렸을 때 스타일*/
+  background:#ffcab2; /*배경색 지정*/
+  color:black;
+  margin:0;
+  padding:5px;
+}
 
-    .menuLink, .submenuLink {           /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */
-        text-decoration:none;
-        display: block;
-        width: 150px;
-        font-size: 12px;
-        font-weight: bold;
-        font-family: "Trebuchet MS", Dotum;
-    }
-    .menuLink {     /* 상위 메뉴의 글씨색을 흰색으로 설정 */
-        color: white;
-    }
-    .topMenuLi:hover .menuLink {    /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
-        color: red;
-        background-color: #4d4d4d;
-    }
-    .longLink {     /* 좀 더 긴 메뉴 스타일 설정 */
-        width: 190px;
-    }
-.submenuLink {          /* 하위 메뉴의 a 태그 스타일 설정 */
-        color: #2d2d2d;
-        background-color: #DDD;      /* [변경] 배경색 변경 */
-        -border: solid 1px black;    /* [삭제] 테두리 삭제 */
-        -margin-right: -1px;         /* [삭제] 공백 보정 삭제 */
-    }
-    .submenu {              /* 하위 메뉴 스타일 설정 */
-        position: absolute;
-        height: 0px;
-        overflow: hidden;
-        transition: height .2s;
-        -webkit-transition: height .2s;
-        -moz-transition: height .2s;
-        -o-transition: height .2s;
-        width: 1000px;
-        left: 0;
+#topmenu ul { /*서브메뉴 스타일*/
+  list-style:none; /*불릿 없애기디자 */
+  margin:0;
+  padding:0;
+  position:absolute; /*고정 위치에 표시*/
+  left:0; /*부모 요소와 왼쪽 좌표값을 같게 한다*/
+  top:40px; /*부모 요소로부터 45px 아래에 표시*/
+  width:105px; /*서브메뉴의 너비*/
+  background:#ffcab2; /*서브 메뉴의 배경색*/
+  text-align:center; /*글자 가운데 정렬*/
+  opacity: 0;
+}
 
+#topmenu ul li{ /*서브메뉴 리스트들의 스타일*/
+  float:none; /*(부모요소의)떠있는 속성을 해제하여 세로로 표시되도록 한다*/
+  margin:0;
+  padding:0;
+  font-size:8px; /*폰트 사이즈*/
+}
 
-        background-color: #DDD; /* [추가] 하위 메뉴 전체에 배경색 설정 */
-    }
-    .submenu li {
-        display: inline-block;
+#topmenu ul a{ /*서브메뉴 리스트의 링크 스타일*/
+  font-weight: normal; /*글자 굵기 보통의 지정*/
+  color:black; /*글자색 검적색으로 지정*/
+}
 
+#topmenu ul li:hover a{ /*서브메뉴 리스트로 마우스 포인터를 올렸을 때의 스타일*/
+  background: #cc9882; /*배경색 지정*/
+  font-weight: bold; /*글자굵기 굵게 지 */
+}
 
-    }
-    .topMenuLi:hover .submenu {
-        height: 32px;
-    }
-    .submenuLink:hover {
-        color: red;
-        background-color: #dddddd;
-    }
+#topmenu li:hover ul{ /*메인메뉴에 마우스 포인터를 가져갔을 때 서브메뉴 스타일*/
+  opacity:1; /*서브메뉴 불투명하게 설정*/
+}
 
-
-
-출처: https://unikys.tistory.com/369 [All-round programmer]
+#topmenu li:hover ul li{ /*마우스 포인터를 올려놨을 때 서브메뉴 스타일*/
+  height:35px; /*서브메뉴의 높이*/
+  overflow: visible; /*영역을 넘어가는 내용이 있다면 표시*/
+  padding: 0;
+}
