@@ -4,6 +4,7 @@ header {background-color: #C6C2B6; width: 1300px; height: 80px; padding: 0.1px 0
 article {width: 1300px; background-color: #FFF4BA; float: left;}
 /* aside {width: 850px; background-color: #F7DEF9; float: left;} */
 footer {float: left; width: 1300px; height: 30px; padding: 20px 0px 0px 0px; background-color: #2D2D2D; font-size: 12px; color: white;}
+
 #topmenu { /*전체 메뉴 스타일*/
   list-style:none; /*불릿 없애기*/
   height:40px;
