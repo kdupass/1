@@ -1,0 +1,27 @@
+.circle{
+width:200px;
+height:200px;
+border-radius:50%;
+
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+background:#00d3d3;
+
+font-size:16px;
+
+text-align:center;
+
+line-height:110px;
+
+color:#00d3d3;
+font-family:'Open Sans';
+font-weight:bold;
+background:url(./img/108.gif) center 100% no-repeat;
+
+border:6px solid #fff;
+box-shadow: 0 0 16px rgb(221,221,221);
+
+-webkit-box-shadow: 0 0 16px rgb(221,221,221);
+-moz-box-shadow: 0 0 16px rgb(221,221,221);
+
+}
