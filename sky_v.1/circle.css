@@ -1,26 +1,21 @@
-.circle{
-width:200px;
-height:200px;
+@import url( http://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300 );
+#circle{
+width:100px;
+height:100px;
+margin-bottom: 10px;
 border-radius:50%;
-
 -webkit-border-radius:50%;
 -moz-border-radius:50%;
 background:#00d3d3;
-
-font-size:16px;
-
+font-size:12px;
 text-align:center;
-
-line-height:110px;
-
+line-height:50px;
 color:#00d3d3;
 font-family:'Open Sans';
 font-weight:bold;
 background:url(./img/108.gif) center 100% no-repeat;
-
 border:6px solid #fff;
 box-shadow: 0 0 16px rgb(221,221,221);
-
 -webkit-box-shadow: 0 0 16px rgb(221,221,221);
 -moz-box-shadow: 0 0 16px rgb(221,221,221);
 
