@@ -1,4 +1,5 @@
-#container {width: 1300px; margin: 0 auto; padding-top: 100px;}
+#container {width: 1300px; margin: 0 auto;}
+#hantest {padding-top: 100px;}
 #container #input-form {text-align: center;}
 #equipdb-table {margin: 0 auto; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
