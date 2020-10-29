@@ -1,0 +1,6 @@
+#tdiv1 {position: absolute;left: 20px; top: 200px;}
+
+#test {border-collapse: collapse;}
+#test > thead > tr { background-color: #333; color:#fff; }
+#test > thead > tr > th { padding: 8px; width: 150px; }
+#test > tbody > tr > td { border-bottom: 1px solid gray; padding:8px; }

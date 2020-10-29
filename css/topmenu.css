@@ -51,6 +51,7 @@ footer {float: left; width: 1300px; height: 30px; padding: 20px 0px 0px 0px; bac
   width:105px; /*서브메뉴의 너비*/
   background:#ffcab2; /*서브 메뉴의 배경색*/
   text-align:center; /*글자 가운데 정렬*/
+  display: none;
   opacity: 0;
 }
 
@@ -72,6 +73,7 @@ footer {float: left; width: 1300px; height: 30px; padding: 20px 0px 0px 0px; bac
 }
 
 #topmenu li:hover ul{ /*메인메뉴에 마우스 포인터를 가져갔을 때 서브메뉴 스타일*/
+  display: block;
   opacity:1; /*서브메뉴 불투명하게 설정*/
 }
 
