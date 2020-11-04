@@ -1,0 +1,10 @@
+#tdiv1 {position: absolute;left: 20px; top: 250px;}
+#tdiv1 {border: 3px solid black; padding: 10px;}
+#tdiv2 {position: absolute;left: 300px; top: 250px;}
+#tdiv2 {border: 3px solid black; padding: 10px;}
+
+#test {border-collapse: collapse;}
+#test > thead > tr { background-color: #99cccc; }
+#test > thead > tr > th { padding: 8px; width: 150px; }
+#test > tbody > tr > td { border-bottom: 1px solid #99cccc; padding:3px; text-align: center;}
+#test > tbody > tr > td a {text-decoration:none; color: #000;}
