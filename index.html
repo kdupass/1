@@ -3,35 +3,49 @@
 <head>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
 <TITLE> 임시 메인 </TITLE>
-<link rel="stylesheet" type="text/css" href="css/topmenu.css"> <!-- 상단 메뉴 css -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="body.css"> <!-- 상단 메뉴 css -->
+<script type="text/javascript">
+$(document).ready( function() {
+  $("#topmenu").load("topmenu.html")  // 원하는 파일 경로를 삽입하면 된다
+  });
+  </script>
 </head>
 <body>
   <div class="wrap">
   <header><h3>천애 편의 검색</h3></header>
-  <ul id="topmenu">
-    <!-- <li><a href="https://kdupass.github.io/sky">홈</a></li> -->
-    <li><a href="#">아이템</a>
-      <ul>
-        <li><a href="https://kdupass.github.io/sky/etcdb-table1.html" target="main_area">기타</a></li>
-        <li><a href="https://kdupass.github.io/sky/equipdb-table.html" target="main_area">장비</a></li>
-        <li><a href="https://kdupass.github.io/sky/iden-equip.html" target="main_area">신분 장비</a></li>
-      </ul>
-    </li>
-    <li><a href="#">퀘스트</a>
-      <ul>
-        <li><a href="https://kdupass.github.io/sky/quest.html" target="main_area">메인 퀘스트</a></li>
-        <li><a href="https://kdupass.github.io/sky/q-equip.html" target="main_area">무기 지급</a></li>
-      </ul>
-    </li>
-    <li><a href="#">치트</a>
-      <ul>
-        <li><a href="https://kdupass.github.io/sky/cheat.html" target="main_area">치트키</a></li>
-        <li><a href="https://kdupass.github.io/sky/house.html" target="main_area">주택 토지</a></li>
-      </ul>
-    </li>
-  </ul>
+  <div id="topmenu"></div>
   <article>
-    <iframe name="main_area" src="" seamless="false" align="center" width="1300px" height="700" frameborder="0px" scrolling="auto"></iframe>
+    <div name="main_area">
+    <div id="tdiv1">
+      <table id="test">
+        <thead>
+        <tr>
+          <th> TC 문서 </th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="#" onclick="window.open('https://jiralive.nexon.com/browse/PUB2-576', '웹.유료화','width=#,height=#'); return false">웹 / 유료화</a><td></tr>
+          <tr><td><a href="#">예정</a><td></tr>
+          <tr><td><a href="https://jiralive.nexon.com/browse/PUB2-709">기본테스트</a><td></tr>
+      </tbody>
+      </table>
+    </div>
+    <div id="tdiv2">
+      <table id="test">
+        <thead>
+        <tr>
+          <th> 업무 문서 </th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="https://jiralive.nexon.com/browse/PUB2-997">JIRA 업무</a><td></tr>
+          <tr><td><a href="https://jiralive.nexon.com/browse/PUB2-1044">호스트 변경</a><td></tr>
+          <tr><td><a href="https://jiralive.nexon.com/browse/PUB2-1056">기초 명령어</a><td></tr>
+      </tbody>
+      </table>
+    </div>
+  </div>
   </article>
   <footer>
     이메일 주소 / 메신저
