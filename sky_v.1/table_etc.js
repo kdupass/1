@@ -14,7 +14,7 @@ function proc(result){
 <!-- json 파일 불러오기-->
 $(document).ready(function() {
     $.ajax({
-      url: './json/etcdb.json',
+      url: '../json/etcdb.json',
       success : function (result) {
         proc(result);
       }
