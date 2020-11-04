@@ -4,7 +4,13 @@
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
 <TITLE>기타db</TITLE>
 <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- js 적용 (검색) -->
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- json 적용 (DB 테이블) -->
+<script	src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="body.css">
+<link rel="stylesheet" type="text/css" href="table_etc.css">
+<script type="text/javascript" src="table_etc.js"> </script>
 <script type="text/javascript">
 $(document).ready( function() {
   $("#nav").load("nav.html")  // 원하는 파일 경로를 삽입하면 된다
@@ -14,9 +20,30 @@ $(document).ready( function() {
   <header>
     <h3><a href="testmain.html">천애 편의 검색</a></h3></header>
   <div id="nav"></div>
-  <div>
-    메인!?
+  <div id="hantest">
+    한/영 확인 <input type="text" /> 영문 및 숫자 입력 시 렉이 걸립니다. 미리 확인하세요
   </div>
+
+<!-- 검색 창-->
+<div id="container">
+  <div id="input-form">
+    name : <input type="text" id="keyword"/>
+  </div>
+
+<!--테이블 태그-->
+<TABLE id="etcdb-table">
+<THEAD>
+<TR>
+<TH>이름</FONT></TH>
+<TH>아이템 ID</FONT></TH>
+<TH>종류</FONT></TH>
+<TH>귀속</FONT></TH>
+</TR>
+</THEAD>
+<tbody>
+</tbody>
+</TABLE>
+</div>
   <footer>이메일 주소 / 메신저</footer>
 </BODY>
 </HTML>
