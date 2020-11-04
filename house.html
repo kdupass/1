@@ -2,7 +2,8 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
 <TITLE>주택 위치</TITLE>
-
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/body.css">
 <!-- js 적용 (검색) -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- json 적용 (DB 테이블) -->
@@ -14,6 +15,9 @@
 
 </HEAD>
 <BODY>
+  <header>
+    <h3><a href="index.html">천애 편의 검색</a></h3></header>
+  <div id="nav"></div>
 
 <!-- 한/영 확인용으로 만들어둠 -->
   <div id="hantest">
@@ -23,7 +27,7 @@
 <!-- 검색 창-->
 <div id="container">
   <div id="input-form">
-    name : <input type="text" id="keyword" />
+    name : <input type="text" id="keyword" style="ime-mode:active;"/>
   </div>
 
 <!--테이블 태그-->
