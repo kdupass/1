@@ -3,35 +3,20 @@
 <head>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
 <TITLE> 임시 메인 </TITLE>
-<link rel="stylesheet" type="text/css" href="topmenu.css"> <!-- 상단 메뉴 css -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="body.css"> <!-- 상단 메뉴 css -->
 <link rel="stylesheet" type="text/css" href="test_table.css">
+<script type="text/javascript">
+$(document).ready( function() {
+  $("#nav").load("nav.html")  // 원하는 파일 경로를 삽입하면 된다
+  });
+  </script>
 </head>
 <body>
   <div class="wrap">
   <header>
     <h3><a href="testmain.html">천애 편의 검색</a></h3></header>
-  <ul id="topmenu">
-    <!-- <li><a href="https://kdupass.github.io/sky">홈</a></li> -->
-    <li><a href="#">아이템</a>
-      <ul>
-        <li><a href="test.html" target="_parent">기타</a></li>
-        <li><a href="https://kdupass.github.io/sky/equipdb-table.html" target="main_area">장비</a></li>
-        <li><a href="https://kdupass.github.io/sky/iden-equip.html" target="main_area">신분 장비</a></li>
-      </ul>
-    </li>
-    <li><a href="#">퀘스트</a>
-      <ul>
-        <li><a href="https://kdupass.github.io/sky/quest.html" target="main_area">메인 퀘스트</a></li>
-        <li><a href="https://kdupass.github.io/sky/q-equip.html" target="main_area">무기 지급</a></li>
-      </ul>
-    </li>
-    <li><a href="#">치트</a>
-      <ul>
-        <li><a href="https://kdupass.github.io/sky/cheat.html" target="main_area">치트키</a></li>
-        <li><a href="https://kdupass.github.io/sky/house.html" target="main_area">주택 토지</a></li>
-      </ul>
-    </li>
-  </ul>
+  <div id="nav"></div>
   <article>
     <div name="main_area">
     <div id="tdiv1">
