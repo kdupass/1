@@ -1,9 +1,9 @@
 #container {width: 1300px; height: 800px; margin: 0 auto;}
 #container #input-form {text-align: center;}
+#container div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
 #hantest {padding-top: 100px;}
 #etcdb-table {margin: 0 auto; text-align: center;}
 #input-form {margin-top: 10px; margin-bottom: 10px;}
-#content div{overflow: scroll; border:solid 1px #ccc; display:none;height:700px; padding-top:65px;}
 #etcdb-table {border-collapse: collapse;}
 #etcdb-table > thead > tr { background-color: #333; color:#fff; }
 #etcdb-table > thead > tr > th { padding: 8px; width: 150px; }
