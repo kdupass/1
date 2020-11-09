@@ -1,5 +1,7 @@
 <html>
 <head>
+  <!-- 상단메뉴 CSS 파일 링크
+모든 페이지에서 상단 메뉴가 동일한 CSS로 노출되도록 설정-->
   <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
 <body>
@@ -7,6 +9,10 @@
   <!-- <li><a href="https://kdupass.github.io/sky">홈</a></li> -->
   <li><a href="#">아이템</a>
     <ul>
+      <!-- 새탭,새창에서 오픈이 아닌 기존 열려있던 탭에서 페이지가 보여질 수 있도록
+    target="_parent" 태그 사용
+    페이지 url에 경우 동일 폴더안에 있는 파일들로 웹url이 아닌 페이지 이름만 입력
+    url을 입력하는 경우 태그가 길어져서 지저분해 보일 수 있음-->
       <li><a href="etcdb-table1.html" target="_parent">기타</a></li>
       <li><a href="equipdb-table.html" target="_parent">장비</a></li>
       <li><a href="iden-equip.html" target="_parent">신분 장비</a></li>

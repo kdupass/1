@@ -5,19 +5,21 @@
 <TITLE> 임시 메인 </TITLE>
 <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/body.css"> <!-- 상단 메뉴 css -->
-<link rel="stylesheet" type="text/css" href="css/main_table.css">
+<link rel="stylesheet" type="text/css" href="css/main_table.css"> <!-- JIRA url 테이블 css -->
 <script type="text/javascript">
 $(document).ready( function() {
   $("#nav").load("nav.html")  // 원하는 파일 경로를 삽입하면 된다
   });
-  </script>
+  </script> <!-- 상단 메뉴 관련 스크립트 -->
 </head>
 <body>
   <div class="wrap">
   <header><a href="index.html"><h3>천애 편의 검색</a></h3></header>
-  <div id="nav"></div>
+  <div id="nav"></div> <!-- 상단 메뉴 들어가는 공간 -->
   <article>
-    <div name="main_area">
+    <div name="main_area"> <!-- 메인 영역 -->
+      <!-- JIRA url 테이블들 들어가는 자리
+    테이블 1개당 div 1개씩 테이블 태그를 이용하여 간단하게 작성 -->
     <div id="tdiv1">
       <table id="test">
         <thead>
@@ -26,6 +28,8 @@ $(document).ready( function() {
         </tr>
         </thead>
         <tbody>
+          <!-- 링크 클릭 시 웹페이지가 동일창에서 뜨는게 아닌 새로운 창에서 열릴 수 있도록
+        onclick 태그 사용 -->
           <tr><td><a href="#" onclick="window.open('https://jiralive.nexon.com/browse/PUB2-576',
             '웹.유료화','width=#,height=#'); return false">웹 / 유료화</a><td></tr>
           <tr><td><a href="#" onclick="window.open('https://jiralive.nexon.com/browse/PUB2-709',
