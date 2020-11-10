@@ -1,5 +1,5 @@
 body {margin: 0px; padding: 0px; text-align:center;} /* 메인 영역 관련 부분 */
-.wrap {width: 1300px; background-color: #FFF4BA; margin: 0px auto 0px auto;} /* index wrap div 관련 css */
+.wrap {width: 1300px; background-color: #FFF4BA;} /* index wrap div 관련 css */
 header {background-color: #C6C2B6; width: 1300px; height: 80px; padding: 0.1px 0px 0px 0px; text-align: left;} /* 머릿말 배경색 및 사이즈 조절 */
 article {width: 1300px; height: 500px; background-color: #FFF4BA; float: left;} /* index 페이지 article 배경색 및 사이즈 조절 */
 /* aside {width: 850px; background-color: #F7DEF9; float: left;} */
