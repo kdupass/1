@@ -2,13 +2,19 @@
 <HEAD>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
 <TITLE>신분 장비</TITLE>
-<script src="//code.jquery.com/jquery-3.4.1.min.js"></script> <!-- nav 바 가져오는 코드 -->
-<!-- json 적용 (DB 테이블) -->
+<!-- 3.3.1 스크립트 = DB 테이블 적용을 위한 스크립트
+     3.4.1 스크립트 = 상단 메뉴 적용 스크립트
+     제일 버전이 높은 스크립트만 남겨둬도 적용되는지는 확인해보지 않음 (관련 내용..검색 안해봄)
+     페이지 표시 자체에 문제는 없어서 크게 수정하지 않음
+    -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/body.css">
+<!--CSS를 하나에 파일로 통합해서 관리할 수 있으나... 귀찮아서 통합 안함 -->
+<link rel="stylesheet" type="text/css" href="css/body.css"> <!-- 상단메뉴 CSS -->
 <link rel="stylesheet" type="text/css" href="css/iden-equip.css"> <!-- 테이블 css -->
-<!-- 스크립트 코드 -->
+<!-- DB 불러오는 스크립트 -->
 <script type="text/javascript" src="js/iden-equip.js"> </script>
+<!-- 상단메뉴 불러오는 스크립트 -->
 <script type="text/javascript">
 $(document).ready( function() {
   $("#nav").load("nav.html")  // 원하는 파일 경로를 삽입하면 된다
@@ -18,7 +24,7 @@ $(document).ready( function() {
 <BODY>
   <header>
     <h3><a href="index.html">천애 편의 검색</a></h3></header>
-  <div id="nav"></div>
+  <div id="nav"></div> <!-- 상단 메뉴 들어가는 공간 -->
   <div id="container">
 <!--테이블 태그-->
 <TABLE id="iden-equip-table">

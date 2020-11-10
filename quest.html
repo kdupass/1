@@ -3,8 +3,14 @@
 		<meta http-http-equiv="Content-type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>퀘스트</title>
+		<!-- 3.3.1 스크립트 = DB 테이블 적용을 위한 스크립트
+		     3.4.1 스크립트 = 상단 메뉴 적용 스크립트
+		     제일 버전이 높은 스크립트만 남겨둬도 적용되는지는 확인해보지 않음 (관련 내용..검색 안해봄)
+		     페이지 표시 자체에 문제는 없어서 크게 수정하지 않음
+		    -->
 <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/body.css">
+<link rel="stylesheet" type="text/css" href="css/body.css"> <!-- 상단 메뉴 CSS -->
+<!-- 상단 메뉴 스크립트 -->
 <script type="text/javascript">
 $(document).ready( function() {
   $("#nav").load("nav.html")  // 원하는 파일 경로를 삽입하면 된다
